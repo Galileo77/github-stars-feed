@@ -1,0 +1,367 @@
+{
+  "username": "Galileo77",
+  "updated_at": "2026-11-20T10:03:50.847518+00:00",
+  "count": 45,
+  "repositories": [
+    {
+      "full_name": "veracrypt/VeraCrypt",
+      "html_url": "https://github.com/veracrypt/VeraCrypt",
+      "description": "Disk encryption with strong security based on TrueCrypt",
+      "pushed_at": "2026-11-18T14:04:55Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "blakeblackshear/frigate",
+      "html_url": "https://github.com/blakeblackshear/frigate",
+      "description": "NVR with realtime local object detection for IP cameras",
+      "pushed_at": "2026-11-20T02:40:47Z",
+      "default_branch": "dev",
+      "archived": false
+    },
+    {
+      "full_name": "leukipp/touchkio",
+      "html_url": "https://github.com/leukipp/touchkio",
+      "description": "Home Assistant Touch Panel Kiosk application for a Linux device (e.g. Raspberry Pi) with Touch Display.",
+      "pushed_at": "2026-09-17T13:45:52Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "leacho73/panalume",
+      "html_url": "https://github.com/leacho73/panalume",
+      "description": "A glassy, fast, drag-and-drop Home Assistant dashboard app",
+      "pushed_at": "2026-11-20T09:57:13Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "aquaticus/esphome-snmp",
+      "html_url": "https://github.com/aquaticus/esphome-snmp",
+      "description": "SNMP component for ESPHome",
+      "pushed_at": "2026-10-05T21:31:43Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "extremeshok/clamav-unofficial-sigs",
+      "html_url": "https://github.com/extremeshok/clamav-unofficial-sigs",
+      "description": "ClamAV Unofficial Signatures Updater maintained by eXtremeSHOK.com",
+      "pushed_at": "2026-07-02T11:59:19Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "laberning/home_io_control",
+      "html_url": "https://github.com/laberning/home_io_control",
+      "description": "ESPHome component for IO-Homecontrol devices",
+      "pushed_at": "2026-11-20T09:05:10Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "Blueforcer/awtrix-ng",
+      "html_url": "https://github.com/Blueforcer/awtrix-ng",
+      "description": "AWTRIX NG - Next generation firmware for  Matrix clocks",
+      "pushed_at": "2026-11-03T17:28:19Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "maziggy/bambuddy",
+      "html_url": "https://github.com/maziggy/bambuddy",
+      "description": "Your Bambu Lab. No Cloud. Your Rules.  Self-hosted command center for Bambu Lab — from one A1 to an entire print farm. ",
+      "pushed_at": "2026-11-20T09:55:01Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "BiancoRoyal/node-red-contrib-modbus",
+      "html_url": "https://github.com/BiancoRoyal/node-red-contrib-modbus",
+      "description": "maintained by PLUS for Node-RED - https://plus4nodered.com",
+      "pushed_at": "2026-11-01T22:04:47Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "traefik/traefik",
+      "html_url": "https://github.com/traefik/traefik",
+      "description": "The Cloud Native Application Proxy",
+      "pushed_at": "2026-11-20T09:38:23Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "Dispatcharr/Dispatcharr",
+      "html_url": "https://github.com/Dispatcharr/Dispatcharr",
+      "description": "Your Ultimate IPTV & Stream Management Companion",
+      "pushed_at": "2026-11-19T23:26:39Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "getarcaneapp/arcane",
+      "html_url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "pushed_at": "2026-11-20T05:04:41Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "HA-Pulse/home-assistant-global-health-score",
+      "html_url": "https://github.com/HA-Pulse/home-assistant-global-health-score",
+      "description": "The open standard for Home Assistant instance health monitoring.",
+      "pushed_at": "2026-11-20T09:58:18Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "bbr111/byd_hvs",
+      "html_url": "https://github.com/bbr111/byd_hvs",
+      "description": "Home Assistant BYD HVS Integration",
+      "pushed_at": "2026-11-04T21:42:23Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "agittins/bermuda",
+      "html_url": "https://github.com/agittins/bermuda",
+      "description": "Bermuda Bluetooth/BLE Triangulation / Trilateration for HomeAssistant",
+      "pushed_at": "2026-11-19T06:34:05Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "dirkhh/adsb-feeder-image",
+      "html_url": "https://github.com/dirkhh/adsb-feeder-image",
+      "description": "Easy to use turn-key SD card image for a number of popular single board computers to run a complete ADS-B feeder",
+      "pushed_at": "2026-11-15T23:10:53Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "merbanan/rtl_433",
+      "html_url": "https://github.com/merbanan/rtl_433",
+      "description": "Program to decode radio transmissions from devices on the ISM bands (and other frequencies)",
+      "pushed_at": "2026-11-14T21:21:24Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "hagezi/dns-blocklists",
+      "html_url": "https://github.com/hagezi/dns-blocklists",
+      "description": "DNS-Blocklists: For a better internet - keep the internet clean!",
+      "pushed_at": "2026-11-20T09:29:40Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "kiddac/XStreamity",
+      "html_url": "https://github.com/kiddac/XStreamity",
+      "description": "Enigma2 plugin is for playing official Xtream Codes IPTV playlists.",
+      "pushed_at": "2026-11-08T14:01:53Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "bramstroker/homeassistant-powercalc",
+      "html_url": "https://github.com/bramstroker/homeassistant-powercalc",
+      "description": "Home Assistant Custom component to calculate estimated power consumption of lights and other appliances",
+      "pushed_at": "2026-11-20T09:58:29Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "andrius/asterisk",
+      "html_url": "https://github.com/andrius/asterisk",
+      "description": "✨📞 Asterisk PBX in 🐳 Docker — Smallest Asterisk ever! 🚀",
+      "pushed_at": "2026-11-20T02:52:17Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "PatchMon/PatchMon",
+      "html_url": "https://github.com/PatchMon/PatchMon",
+      "description": "Linux Patch Management & Automation Platform",
+      "pushed_at": "2026-11-11T20:59:21Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "Bubka/2FAuth",
+      "html_url": "https://github.com/Bubka/2FAuth",
+      "description": "A Web app to manage your Two-Factor Authentication (2FA) accounts and generate their security codes",
+      "pushed_at": "2026-11-03T15:20:25Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "teslamate-org/teslamate",
+      "html_url": "https://github.com/teslamate-org/teslamate",
+      "description": "A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld]",
+      "pushed_at": "2026-11-20T09:11:52Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "getwud/wud",
+      "html_url": "https://github.com/getwud/wud",
+      "description": "Keep your containers up-to-date!",
+      "pushed_at": "2026-11-15T20:01:18Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "jittering/traefik-kop",
+      "html_url": "https://github.com/jittering/traefik-kop",
+      "description": "A dynamic docker->redis->traefik discovery agent",
+      "pushed_at": "2026-10-13T20:44:44Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "DigitalDevices/dddvb",
+      "html_url": "https://github.com/DigitalDevices/dddvb",
+      "description": "ddbridge linux driver",
+      "pushed_at": "2026-10-26T15:06:45Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "paperless-ngx/paperless-ngx",
+      "html_url": "https://github.com/paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "pushed_at": "2026-11-20T06:50:55Z",
+      "default_branch": "dev",
+      "archived": false
+    },
+    {
+      "full_name": "roundcube/roundcubemail",
+      "html_url": "https://github.com/roundcube/roundcubemail",
+      "description": "The Roundcube Webmail suite",
+      "pushed_at": "2026-11-18T14:52:19Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "jomjol/AI-on-the-edge-device",
+      "html_url": "https://github.com/jomjol/AI-on-the-edge-device",
+      "description": "Easy to use device for connecting \"old\" measuring units (water, power, gas, ...) to the digital world",
+      "pushed_at": "2026-11-07T20:47:00Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "librenms/librenms",
+      "html_url": "https://github.com/librenms/librenms",
+      "description": "Community-based GPL-licensed network monitoring system",
+      "pushed_at": "2026-11-20T06:42:59Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "marcelhoogantink/enhanced-shutter-card",
+      "html_url": "https://github.com/marcelhoogantink/enhanced-shutter-card",
+      "description": "An Enhanced Shutter Card for Home Assistant",
+      "pushed_at": "2026-09-09T18:01:22Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "bbernhard/signal-cli-rest-api",
+      "html_url": "https://github.com/bbernhard/signal-cli-rest-api",
+      "description": "Dockerized Signal Messenger REST API",
+      "pushed_at": "2026-11-10T22:38:15Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "ESPresense/ESPresense",
+      "html_url": "https://github.com/ESPresense/ESPresense",
+      "description": "An ESP32 based node for gathering indoor positioning and transmitting to mqtt",
+      "pushed_at": "2026-11-20T01:24:23Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "LMS-Community/slimserver",
+      "html_url": "https://github.com/LMS-Community/slimserver",
+      "description": "Server for Squeezebox and compatible players. This server is also called Lyrion Music Server.",
+      "pushed_at": "2026-11-19T21:43:29Z",
+      "default_branch": "public/9.2",
+      "archived": false
+    },
+    {
+      "full_name": "mib1185/ha-addon-snmpd",
+      "html_url": "https://github.com/mib1185/ha-addon-snmpd",
+      "description": "SNMPD Home Assistant AddOn - to get your HA monitored",
+      "pushed_at": "2026-11-02T22:23:33Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "Devolutions/UniGetUI",
+      "html_url": "https://github.com/Devolutions/UniGetUI",
+      "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
+      "pushed_at": "2026-11-20T06:55:39Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "TechnitiumSoftware/DnsServer",
+      "html_url": "https://github.com/TechnitiumSoftware/DnsServer",
+      "description": "Technitium DNS Server",
+      "pushed_at": "2026-11-15T11:13:36Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "dolezsa/thermal_comfort",
+      "html_url": "https://github.com/dolezsa/thermal_comfort",
+      "description": "Thermal Comfort sensor for HA (absolute humidity, heat index, dew point, thermal perception)",
+      "pushed_at": "2026-11-18T17:40:20Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "timlaing/modbus_local_gateway",
+      "html_url": "https://github.com/timlaing/modbus_local_gateway",
+      "description": "Modbus Local Gateway Integration for Home Assistant",
+      "pushed_at": "2026-11-19T14:03:25Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "CJNE/ha-sunspec",
+      "html_url": "https://github.com/CJNE/ha-sunspec",
+      "description": "Home Assistant customcomponent for SunSpec modbus devices",
+      "pushed_at": "2026-11-19T11:06:47Z",
+      "default_branch": "main",
+      "archived": false
+    },
+    {
+      "full_name": "linuxserver/docker-tvheadend",
+      "html_url": "https://github.com/linuxserver/docker-tvheadend",
+      "description": null,
+      "pushed_at": "2026-10-17T18:20:18Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "ekutner/home-connect-hass",
+      "html_url": "https://github.com/ekutner/home-connect-hass",
+      "description": "Alternative (and improved) Home Connect integration for Home Assistant",
+      "pushed_at": "2026-11-02T11:42:07Z",
+      "default_branch": "master",
+      "archived": false
+    },
+    {
+      "full_name": "LukasGrebe/ha-addons",
+      "html_url": "https://github.com/LukasGrebe/ha-addons",
+      "description": "Addons for Home Assistant",
+      "pushed_at": "2026-11-03T22:35:44Z",
+      "default_branch": "main",
+      "archived": false
+    }
+  ]
+}
