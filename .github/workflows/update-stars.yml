@@ -3,7 +3,7 @@ name: Update GitHub Stars
 
 on:
   schedule:
-    - cron: "15 6 * * *"
+    - cron: "15 5 * * *"
   workflow_dispatch:
 
 permissions:
