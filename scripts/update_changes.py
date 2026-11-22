@@ -183,17 +183,59 @@ def collect(repo):
     # Pull requests
     # ----------------------------------------------
 
-    pulls = safe_pages(
-        path + "/pulls",
-        {
-            "state": "all",
-            "sort": "updated",
-            "direction": "desc",
-        },
-        stop=lambda p: not recent(
-            p.get("updated_at")
-        ),
-    )
+    # Pull Requests können für einzelne Repositories
+    # deaktiviert sein. In diesem Fall ist ein 404
+    # kein fehlgeschlagener Datenabruf.
+
+    pulls = []
+
+    try:
+        pulls = pages(
+            path + "/pulls",
+            {
+                "state": "all",
+                "sort": "updated",
+                "direction": "desc",
+            },
+            stop=lambda p: not recent(
+                p.get("updated_at")
+            ),
+        )
+
+    except urllib.error.HTTPError as exc:
+        if exc.code == 404:
+            try:
+                repo_info = github(path)
+
+                if repo_info.get("has_pull_requests") is False:
+                    print(
+                        f"INFO: {name}: Pull Requests "
+                        "deaktiviert",
+                        flush=True,
+                    )
+                else:
+                    raise ValueError(
+                        "PR endpoint returned HTTP 404; "
+                        "PR availability not confirmed"
+                    )
+
+            except Exception as check_exc:
+                errors.append({
+                    "endpoint": path + "/pulls",
+                    "error": str(check_exc),
+                })
+        else:
+            errors.append({
+                "endpoint": path + "/pulls",
+                "error": str(exc),
+            })
+
+    except Exception as exc:
+        errors.append({
+            "endpoint": path + "/pulls",
+            "error": str(exc),
+        })
+
 
     # ----------------------------------------------
     # Filter relevant time window
