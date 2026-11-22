@@ -1,32 +1,80 @@
 {
   "username": "Galileo77",
-  "generated_at": "2026-11-22T13:29:03.637679+00:00",
-  "period_start": "2026-11-21T13:29:03.637679+00:00",
-  "period_end": "2026-11-22T13:29:03.637679+00:00",
+  "generated_at": "2026-11-22T14:21:41.302818+00:00",
+  "period_start": "2026-11-21T14:21:41.302818+00:00",
+  "period_end": "2026-11-22T14:21:41.302818+00:00",
   "total_repositories": 45,
-  "checked_repositories": 44,
-  "failed_repositories": [
-    {
-      "repository": "hagezi/dns-blocklists",
-      "errors": [
-        {
-          "endpoint": "/repos/hagezi/dns-blocklists/pulls",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ]
-    }
-  ],
-  "complete": false,
+  "checked_repositories": 45,
+  "failed_repositories": [],
+  "complete": true,
   "repositories_with_changes": 23,
   "statistics": {
-    "commits": 61,
+    "commits": 65,
     "releases": 3,
-    "pull_requests": 120
+    "pull_requests": 122
   },
   "repositories": [
     {
+      "repository": "veracrypt/VeraCrypt",
+      "commits": [],
+      "releases": [],
+      "pull_requests": [
+        {
+          "number": 1972,
+          "title": "Unix: try cached passwords only with the KDF they opened a volume with",
+          "state": "open",
+          "updated_at": "2026-11-22T14:18:05Z",
+          "url": "https://github.com/veracrypt/VeraCrypt/pull/1972"
+        },
+        {
+          "number": 1984,
+          "title": "Unix: unmount all volumes when a new USB or Thunderbolt device is connected",
+          "state": "open",
+          "updated_at": "2026-11-22T14:17:54Z",
+          "url": "https://github.com/veracrypt/VeraCrypt/pull/1984"
+        }
+      ],
+      "errors": []
+    },
+    {
       "repository": "blakeblackshear/frigate",
       "commits": [
+        {
+          "sha": "8c887546647619451431a74f139cd80b24ff53d8",
+          "message": "Bump the web-minor-patch group in /web with 18 updates (#25054)",
+          "date": "2026-11-22T14:02:35Z",
+          "url": "https://github.com/blakeblackshear/frigate/commit/8c887546647619451431a74f139cd80b24ff53d8"
+        },
+        {
+          "sha": "890bb6cf9cc0bd2be03158b635ce9f11eaf67608",
+          "message": "Update openai requirement from ==3.49.* to ==3.55.* in /docker/main (#25051)",
+          "date": "2026-11-22T14:02:30Z",
+          "url": "https://github.com/blakeblackshear/frigate/commit/890bb6cf9cc0bd2be03158b635ce9f11eaf67608"
+        },
+        {
+          "sha": "65e34317ebf2a8c2439472a21a2702ccaecb470f",
+          "message": "Update google-genai requirement (#25049)",
+          "date": "2026-11-22T14:02:25Z",
+          "url": "https://github.com/blakeblackshear/frigate/commit/65e34317ebf2a8c2439472a21a2702ccaecb470f"
+        },
+        {
+          "sha": "e17005c6b4ae0f7e6bcee32f2e540fe653149e4c",
+          "message": "Update fastapi requirement from ==0.162.* to ==0.165.* in /docker/main (#25053)",
+          "date": "2026-11-22T14:02:19Z",
+          "url": "https://github.com/blakeblackshear/frigate/commit/e17005c6b4ae0f7e6bcee32f2e540fe653149e4c"
+        },
+        {
+          "sha": "fabb8b0119d930a8789fe069a7f61b8d0fbe10b3",
+          "message": "Update onnxruntime requirement from ==1.31.* to ==1.32.* in /docker/main (#25052)",
+          "date": "2026-11-22T14:02:14Z",
+          "url": "https://github.com/blakeblackshear/frigate/commit/fabb8b0119d930a8789fe069a7f61b8d0fbe10b3"
+        },
+        {
+          "sha": "8c3a2610bb352d31860ad036da243334a2ecdc35",
+          "message": "Bump the pip-main-minor-patch group in /docker/main with 2 updates (#25050)",
+          "date": "2026-11-22T14:02:09Z",
+          "url": "https://github.com/blakeblackshear/frigate/commit/8c3a2610bb352d31860ad036da243334a2ecdc35"
+        },
         {
           "sha": "39d1053d0c12cbd446c375464e89000c6a27af23",
           "message": "Implement shared function to ensure consistency of object severity (#25041)",
@@ -37,46 +85,67 @@
       "releases": [],
       "pull_requests": [
         {
+          "number": 25014,
+          "title": "Translations update from Hosted Weblate",
+          "state": "open",
+          "updated_at": "2026-11-22T14:06:49Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25014"
+        },
+        {
+          "number": 25048,
+          "title": "Miscellaneous fixes",
+          "state": "open",
+          "updated_at": "2026-11-22T14:05:14Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25048"
+        },
+        {
           "number": 25054,
           "title": "Bump the web-minor-patch group in /web with 18 updates",
-          "state": "open",
-          "updated_at": "2026-11-22T11:34:42Z",
+          "state": "closed",
+          "updated_at": "2026-11-22T14:02:45Z",
           "url": "https://github.com/blakeblackshear/frigate/pull/25054"
+        },
+        {
+          "number": 25051,
+          "title": "Update openai requirement from ==3.49.* to ==3.55.* in /docker/main",
+          "state": "closed",
+          "updated_at": "2026-11-22T14:02:40Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25051"
+        },
+        {
+          "number": 24253,
+          "title": "0.19.0",
+          "state": "open",
+          "updated_at": "2026-11-22T14:02:39Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/24253"
+        },
+        {
+          "number": 25049,
+          "title": "Update google-genai requirement from ==3.2.* to ==3.6.* in /docker/main in the pydantic-genai group",
+          "state": "closed",
+          "updated_at": "2026-11-22T14:02:35Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25049"
         },
         {
           "number": 25053,
           "title": "Update fastapi requirement from ==0.162.* to ==0.165.* in /docker/main",
-          "state": "open",
-          "updated_at": "2026-11-22T11:34:00Z",
+          "state": "closed",
+          "updated_at": "2026-11-22T14:02:28Z",
           "url": "https://github.com/blakeblackshear/frigate/pull/25053"
         },
         {
           "number": 25052,
           "title": "Update onnxruntime requirement from ==1.31.* to ==1.32.* in /docker/main",
-          "state": "open",
-          "updated_at": "2026-11-22T11:33:52Z",
+          "state": "closed",
+          "updated_at": "2026-11-22T14:02:24Z",
           "url": "https://github.com/blakeblackshear/frigate/pull/25052"
-        },
-        {
-          "number": 25051,
-          "title": "Update openai requirement from ==3.49.* to ==3.55.* in /docker/main",
-          "state": "open",
-          "updated_at": "2026-11-22T11:33:41Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25051"
         },
         {
           "number": 25050,
           "title": "Bump the pip-main-minor-patch group in /docker/main with 2 updates",
-          "state": "open",
-          "updated_at": "2026-11-22T11:33:34Z",
+          "state": "closed",
+          "updated_at": "2026-11-22T14:02:18Z",
           "url": "https://github.com/blakeblackshear/frigate/pull/25050"
-        },
-        {
-          "number": 25049,
-          "title": "Update google-genai requirement from ==3.2.* to ==3.6.* in /docker/main in the pydantic-genai group",
-          "state": "open",
-          "updated_at": "2026-11-22T11:32:39Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25049"
         },
         {
           "number": 24894,
@@ -128,20 +197,6 @@
           "url": "https://github.com/blakeblackshear/frigate/pull/25041"
         },
         {
-          "number": 24253,
-          "title": "0.19.0",
-          "state": "open",
-          "updated_at": "2026-11-21T21:42:39Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/24253"
-        },
-        {
-          "number": 25048,
-          "title": "Miscellaneous fixes",
-          "state": "open",
-          "updated_at": "2026-11-21T21:38:24Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25048"
-        },
-        {
           "number": 25003,
           "title": "Fix ONNX Runtime CPU memory arena configuration",
           "state": "closed",
@@ -168,13 +223,6 @@
           "state": "closed",
           "updated_at": "2026-11-21T15:35:44Z",
           "url": "https://github.com/blakeblackshear/frigate/pull/25042"
-        },
-        {
-          "number": 24931,
-          "title": "Change sync for CUDA to blocking sync, reducing wasted CPU overhead on spinlocks.",
-          "state": "open",
-          "updated_at": "2026-11-21T13:34:45Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/24931"
         }
       ],
       "errors": []
@@ -267,12 +315,6 @@
           "message": "feat(oneway): send the copies of a one-way burst back to back",
           "date": "2026-11-21T19:40:32Z",
           "url": "https://github.com/laberning/home_io_control/commit/a02788802d48bcd4b1fdfffd64a3a7b78ddcee92"
-        },
-        {
-          "sha": "468e979ebd5857abe4d011cd432ff82f469f5842",
-          "message": "docs(velux): add an SSL shutter through a KLR 200 key, with no motor reset (#255)",
-          "date": "2026-11-21T14:11:04Z",
-          "url": "https://github.com/laberning/home_io_control/commit/468e979ebd5857abe4d011cd432ff82f469f5842"
         }
       ],
       "releases": [],
@@ -290,13 +332,6 @@
           "state": "closed",
           "updated_at": "2026-11-21T14:24:45Z",
           "url": "https://github.com/laberning/home_io_control/pull/240"
-        },
-        {
-          "number": 255,
-          "title": "docs(velux): add an SSL shutter through a KLR 200 key, with no motor …",
-          "state": "closed",
-          "updated_at": "2026-11-21T14:11:05Z",
-          "url": "https://github.com/laberning/home_io_control/pull/255"
         }
       ],
       "errors": []
@@ -665,21 +700,6 @@
       "errors": []
     },
     {
-      "repository": "dirkhh/adsb-feeder-image",
-      "commits": [],
-      "releases": [],
-      "pull_requests": [
-        {
-          "number": 457,
-          "title": "log-sanitizer: redact the global name and the dash-free mDNS alias",
-          "state": "open",
-          "updated_at": "2026-11-21T13:29:58Z",
-          "url": "https://github.com/dirkhh/adsb-feeder-image/pull/457"
-        }
-      ],
-      "errors": []
-    },
-    {
       "repository": "merbanan/rtl_433",
       "commits": [],
       "releases": [],
@@ -726,12 +746,7 @@
         }
       ],
       "pull_requests": [],
-      "errors": [
-        {
-          "endpoint": "/repos/hagezi/dns-blocklists/pulls",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ]
+      "errors": []
     },
     {
       "repository": "bramstroker/homeassistant-powercalc",
@@ -765,16 +780,17 @@
           "message": "docs: use the Home Assistant Marketplace for installation",
           "date": "2026-11-22T07:07:05Z",
           "url": "https://github.com/bramstroker/homeassistant-powercalc/commit/6d65d271d67aaf50e2bbbe726fccd425cba4797a"
-        },
-        {
-          "sha": "ff7ffab3bf78a88046f930c3be29d60ad66d9dd8",
-          "message": "chore(deps): update dependency vitest to v5.1.1 (#5210)",
-          "date": "2026-11-21T13:54:29Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/commit/ff7ffab3bf78a88046f930c3be29d60ad66d9dd8"
         }
       ],
       "releases": [],
       "pull_requests": [
+        {
+          "number": 5150,
+          "title": "Add nanoleaf NL29 power profile",
+          "state": "open",
+          "updated_at": "2026-11-22T14:20:59Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5150"
+        },
         {
           "number": 5216,
           "title": "Update Measure to Python 3.15 and align CI runtimes",
@@ -809,13 +825,6 @@
           "state": "open",
           "updated_at": "2026-11-22T06:09:08Z",
           "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5211"
-        },
-        {
-          "number": 5210,
-          "title": "chore(deps): update dependency vitest to v5.1.1",
-          "state": "closed",
-          "updated_at": "2026-11-21T13:54:32Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5210"
         }
       ],
       "errors": []
@@ -874,13 +883,6 @@
           "state": "closed",
           "updated_at": "2026-11-21T16:16:34Z",
           "url": "https://github.com/teslamate-org/teslamate/pull/4069"
-        },
-        {
-          "number": 5984,
-          "title": "build(deps): update flake.lock",
-          "state": "open",
-          "updated_at": "2026-11-21T14:11:46Z",
-          "url": "https://github.com/teslamate-org/teslamate/pull/5984"
         }
       ],
       "errors": []
@@ -1163,9 +1165,9 @@
       "pull_requests": [
         {
           "number": 4200,
-          "title": "Code Quality Improvements, Refactoring, Bug Fixes and Performance Optimizations Summary",
-          "state": "open",
-          "updated_at": "2026-11-22T11:15:53Z",
+          "title": "x",
+          "state": "closed",
+          "updated_at": "2026-11-22T14:20:19Z",
           "url": "https://github.com/jomjol/AI-on-the-edge-device/pull/4200"
         },
         {
@@ -1232,6 +1234,13 @@
       ],
       "releases": [],
       "pull_requests": [
+        {
+          "number": 21395,
+          "title": "Add Redfish polling method and sensors module",
+          "state": "open",
+          "updated_at": "2026-11-22T13:53:29Z",
+          "url": "https://github.com/librenms/librenms/pull/21395"
+        },
         {
           "number": 21378,
           "title": "Collect installed packages via HOST-RESOURCES-MIB hrSWInstalledTable",
@@ -1444,6 +1453,20 @@
       ],
       "releases": [],
       "pull_requests": [
+        {
+          "number": 488,
+          "title": "Refuse a port above 65535 in setup and Reconfigure",
+          "state": "open",
+          "updated_at": "2026-11-22T14:19:49Z",
+          "url": "https://github.com/CJNE/ha-sunspec/pull/488"
+        },
+        {
+          "number": 487,
+          "title": "Drop the duplicate and undefined keys from inverter.json",
+          "state": "open",
+          "updated_at": "2026-11-22T14:19:47Z",
+          "url": "https://github.com/CJNE/ha-sunspec/pull/487"
+        },
         {
           "number": 486,
           "title": "Move the connection from Configure to Reconfigure",
