@@ -3,7 +3,8 @@ name: Update GitHub Changes
 
 on:
   schedule:
-    - cron: "25 5 * * *"
+    - cron: "15 4 * * *"
+    - cron: "15 5 * * *"
   workflow_dispatch:
 
 permissions:
