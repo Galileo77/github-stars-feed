@@ -1,17 +1,17 @@
 {
   "username": "Galileo77",
-  "generated_at": "2026-11-22T14:21:41.302818+00:00",
-  "period_start": "2026-11-21T14:21:41.302818+00:00",
-  "period_end": "2026-11-22T14:21:41.302818+00:00",
+  "generated_at": "2026-11-23T07:30:59.327584+00:00",
+  "period_start": "2026-11-22T07:30:59.327584+00:00",
+  "period_end": "2026-11-23T07:30:59.327584+00:00",
   "total_repositories": 45,
   "checked_repositories": 45,
   "failed_repositories": [],
   "complete": true,
-  "repositories_with_changes": 23,
+  "repositories_with_changes": 25,
   "statistics": {
-    "commits": 65,
+    "commits": 91,
     "releases": 3,
-    "pull_requests": 122
+    "pull_requests": 161
   },
   "repositories": [
     {
@@ -20,18 +20,25 @@
       "releases": [],
       "pull_requests": [
         {
+          "number": 1984,
+          "title": "Unix: unmount all volumes when a new USB or Thunderbolt device is connected",
+          "state": "open",
+          "updated_at": "2026-11-22T16:11:20Z",
+          "url": "https://github.com/veracrypt/VeraCrypt/pull/1984"
+        },
+        {
+          "number": 1983,
+          "title": "Windows: allow keeping key clearing on device insertion enabled until restart",
+          "state": "open",
+          "updated_at": "2026-11-22T14:26:31Z",
+          "url": "https://github.com/veracrypt/VeraCrypt/pull/1983"
+        },
+        {
           "number": 1972,
           "title": "Unix: try cached passwords only with the KDF they opened a volume with",
           "state": "open",
           "updated_at": "2026-11-22T14:18:05Z",
           "url": "https://github.com/veracrypt/VeraCrypt/pull/1972"
-        },
-        {
-          "number": 1984,
-          "title": "Unix: unmount all volumes when a new USB or Thunderbolt device is connected",
-          "state": "open",
-          "updated_at": "2026-11-22T14:17:54Z",
-          "url": "https://github.com/veracrypt/VeraCrypt/pull/1984"
         }
       ],
       "errors": []
@@ -74,29 +81,107 @@
           "message": "Bump the pip-main-minor-patch group in /docker/main with 2 updates (#25050)",
           "date": "2026-11-22T14:02:09Z",
           "url": "https://github.com/blakeblackshear/frigate/commit/8c3a2610bb352d31860ad036da243334a2ecdc35"
-        },
-        {
-          "sha": "39d1053d0c12cbd446c375464e89000c6a27af23",
-          "message": "Implement shared function to ensure consistency of object severity (#25041)",
-          "date": "2026-11-21T21:42:37Z",
-          "url": "https://github.com/blakeblackshear/frigate/commit/39d1053d0c12cbd446c375464e89000c6a27af23"
         }
       ],
       "releases": [],
       "pull_requests": [
+        {
+          "number": 25048,
+          "title": "Miscellaneous fixes",
+          "state": "open",
+          "updated_at": "2026-11-23T04:47:50Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25048"
+        },
+        {
+          "number": 24884,
+          "title": "Don't race the capture thread when stopping ffmpeg",
+          "state": "closed",
+          "updated_at": "2026-11-23T04:04:53Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/24884"
+        },
+        {
+          "number": 25022,
+          "title": "Implement banner for stopping debug replay",
+          "state": "closed",
+          "updated_at": "2026-11-22T22:08:45Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25022"
+        },
+        {
+          "number": 25003,
+          "title": "Fix ONNX Runtime CPU memory arena configuration",
+          "state": "closed",
+          "updated_at": "2026-11-22T22:02:20Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25003"
+        },
+        {
+          "number": 25011,
+          "title": "Bump version",
+          "state": "closed",
+          "updated_at": "2026-11-22T21:41:12Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25011"
+        },
+        {
+          "number": 24974,
+          "title": "Speed up the tracker distance function",
+          "state": "open",
+          "updated_at": "2026-11-22T21:38:52Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/24974"
+        },
+        {
+          "number": 24888,
+          "title": "Add Frigate Decisions to third party extensions",
+          "state": "open",
+          "updated_at": "2026-11-22T20:45:19Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/24888"
+        },
+        {
+          "number": 25007,
+          "title": "Miscellaneous Fixes",
+          "state": "closed",
+          "updated_at": "2026-11-22T20:37:04Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25007"
+        },
+        {
+          "number": 25012,
+          "title": "Security: Update bundled NGINX to 1.30.7",
+          "state": "closed",
+          "updated_at": "2026-11-22T20:34:57Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25012"
+        },
+        {
+          "number": 25009,
+          "title": "Update nginx and backport module changes",
+          "state": "closed",
+          "updated_at": "2026-11-22T20:27:49Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25009"
+        },
+        {
+          "number": 24946,
+          "title": "Send the review id in a request header on review descriptions",
+          "state": "open",
+          "updated_at": "2026-11-22T19:27:26Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/24946"
+        },
+        {
+          "number": 24931,
+          "title": "Change sync for CUDA to blocking sync, reducing wasted CPU overhead on spinlocks.",
+          "state": "open",
+          "updated_at": "2026-11-22T17:46:55Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/24931"
+        },
+        {
+          "number": 24996,
+          "title": "Miscellaneous fixes",
+          "state": "closed",
+          "updated_at": "2026-11-22T16:36:04Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/24996"
+        },
         {
           "number": 25014,
           "title": "Translations update from Hosted Weblate",
           "state": "open",
           "updated_at": "2026-11-22T14:06:49Z",
           "url": "https://github.com/blakeblackshear/frigate/pull/25014"
-        },
-        {
-          "number": 25048,
-          "title": "Miscellaneous fixes",
-          "state": "open",
-          "updated_at": "2026-11-22T14:05:14Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25048"
         },
         {
           "number": 25054,
@@ -153,76 +238,6 @@
           "state": "open",
           "updated_at": "2026-11-22T09:53:21Z",
           "url": "https://github.com/blakeblackshear/frigate/pull/24894"
-        },
-        {
-          "number": 24722,
-          "title": "Substitute FRIGATE_ vars in go2rtc api credentials",
-          "state": "closed",
-          "updated_at": "2026-11-22T00:13:43Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/24722"
-        },
-        {
-          "number": 25007,
-          "title": "Miscellaneous Fixes",
-          "state": "closed",
-          "updated_at": "2026-11-21T21:59:57Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25007"
-        },
-        {
-          "number": 24946,
-          "title": "Send the review id in a request header on review descriptions",
-          "state": "open",
-          "updated_at": "2026-11-21T21:59:03Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/24946"
-        },
-        {
-          "number": 25045,
-          "title": "Fix/tracked object disk write oserror",
-          "state": "closed",
-          "updated_at": "2026-11-21T21:44:55Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25045"
-        },
-        {
-          "number": 25044,
-          "title": "Fix/recording cleanup oserror resilience",
-          "state": "closed",
-          "updated_at": "2026-11-21T21:44:28Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25044"
-        },
-        {
-          "number": 25041,
-          "title": "Implement shared function to ensure consistency of object severity",
-          "state": "closed",
-          "updated_at": "2026-11-21T21:42:40Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25041"
-        },
-        {
-          "number": 25003,
-          "title": "Fix ONNX Runtime CPU memory arena configuration",
-          "state": "closed",
-          "updated_at": "2026-11-21T21:21:52Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25003"
-        },
-        {
-          "number": 24690,
-          "title": "Add Gemini embeddings for semantic search",
-          "state": "closed",
-          "updated_at": "2026-11-21T17:05:53Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/24690"
-        },
-        {
-          "number": 25043,
-          "title": "Handle OSError when writing tracked object thumbnails and snapshots",
-          "state": "closed",
-          "updated_at": "2026-11-21T15:35:48Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25043"
-        },
-        {
-          "number": 25042,
-          "title": "Handle per-file OSError and batch DB deletes in recording cleanup",
-          "state": "closed",
-          "updated_at": "2026-11-21T15:35:44Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25042"
         }
       ],
       "errors": []
@@ -244,14 +259,7 @@
     },
     {
       "repository": "leacho73/panalume",
-      "commits": [
-        {
-          "sha": "90318d894465372fbe43d6f5175c35a3dff855f1",
-          "message": "CHANGELOG: link the people we thank to their GitHub profiles (#179)",
-          "date": "2026-11-21T20:41:45Z",
-          "url": "https://github.com/leacho73/panalume/commit/90318d894465372fbe43d6f5175c35a3dff855f1"
-        }
-      ],
+      "commits": [],
       "releases": [],
       "pull_requests": [
         {
@@ -260,13 +268,6 @@
           "state": "open",
           "updated_at": "2026-11-22T08:50:12Z",
           "url": "https://github.com/leacho73/panalume/pull/174"
-        },
-        {
-          "number": 179,
-          "title": "CHANGELOG: link the people we thank",
-          "state": "closed",
-          "updated_at": "2026-11-21T20:41:49Z",
-          "url": "https://github.com/leacho73/panalume/pull/179"
         }
       ],
       "errors": []
@@ -275,63 +276,117 @@
       "repository": "laberning/home_io_control",
       "commits": [
         {
+          "sha": "6cd34d02d77b0192b0b76bc1a28f5de6ab890d8f",
+          "message": "feat(pairing): push a key to a declared device by address, without discovery (#257)",
+          "date": "2026-11-23T06:44:26Z",
+          "url": "https://github.com/laberning/home_io_control/commit/6cd34d02d77b0192b0b76bc1a28f5de6ab890d8f"
+        },
+        {
+          "sha": "333a51553f9e0de30aa5fa12f98b14e021f973ab",
+          "message": "docs: cite the merged pull request #252 for the Explorer V4",
+          "date": "2026-11-22T20:37:49Z",
+          "url": "https://github.com/laberning/home_io_control/commit/333a51553f9e0de30aa5fa12f98b14e021f973ab"
+        },
+        {
+          "sha": "b47f405038bba4000aa3ef3fa3843db8a4f87cfd",
+          "message": "docs: add the second Explorer V4 unit and new Adelis and Hekla captures",
+          "date": "2026-11-22T20:10:30Z",
+          "url": "https://github.com/laberning/home_io_control/commit/b47f405038bba4000aa3ef3fa3843db8a4f87cfd"
+        },
+        {
+          "sha": "800a2a3e1c077011502594d070f17c03351c8870",
+          "message": "feat(oneway): give a one-way cover its kind's default device class",
+          "date": "2026-11-22T17:31:24Z",
+          "url": "https://github.com/laberning/home_io_control/commit/800a2a3e1c077011502594d070f17c03351c8870"
+        },
+        {
+          "sha": "217e83a2c6851f68c4f170ddfc9fc0773640c9c9",
+          "message": "fix(light): drop a reading while a user value still waits to be written",
+          "date": "2026-11-22T17:25:21Z",
+          "url": "https://github.com/laberning/home_io_control/commit/217e83a2c6851f68c4f170ddfc9fc0773640c9c9"
+        },
+        {
+          "sha": "c3d89e4912e7a4ecf54e61a645ff8d7c1756521c",
+          "message": "refactor(roll-call): format the responder RSSI with the shared formatter",
+          "date": "2026-11-22T16:10:20Z",
+          "url": "https://github.com/laberning/home_io_control/commit/c3d89e4912e7a4ecf54e61a645ff8d7c1756521c"
+        },
+        {
+          "sha": "cdd498038cce10d9a3ebfb9ade2640e0a2799dbf",
+          "message": "test(build): compile an offline LR1121 config in firmware-test",
+          "date": "2026-11-22T16:03:30Z",
+          "url": "https://github.com/laberning/home_io_control/commit/cdd498038cce10d9a3ebfb9ade2640e0a2799dbf"
+        },
+        {
+          "sha": "e9b9429dd94f4b4c312d4a0ee3dc311377fb58fc",
+          "message": "feat(oneway): warn when a typed identity drives a device of another type",
+          "date": "2026-11-22T15:57:59Z",
+          "url": "https://github.com/laberning/home_io_control/commit/e9b9429dd94f4b4c312d4a0ee3dc311377fb58fc"
+        },
+        {
+          "sha": "d0ca828d3e1e2e55d9dadac20fc693711b66d04b",
+          "message": "fix(oneway): list a driven device under its identity in the boot log, not as a linked remote",
+          "date": "2026-11-22T15:51:33Z",
+          "url": "https://github.com/laberning/home_io_control/commit/d0ca828d3e1e2e55d9dadac20fc693711b66d04b"
+        },
+        {
+          "sha": "40cc685866d21188d2f40edb016de3415d6c8216",
+          "message": "fix(light): tell a published reading's echo from a user value by its values",
+          "date": "2026-11-22T15:38:56Z",
+          "url": "https://github.com/laberning/home_io_control/commit/40cc685866d21188d2f40edb016de3415d6c8216"
+        },
+        {
+          "sha": "1252172af858f8a9bab105de648b26701f37e6fb",
+          "message": "fix(oneway): arm a slider value's timed stop only from its own command's report",
+          "date": "2026-11-22T14:33:32Z",
+          "url": "https://github.com/laberning/home_io_control/commit/1252172af858f8a9bab105de648b26701f37e6fb"
+        },
+        {
+          "sha": "af0c54e692225828a32efb54a89b4b871d1b4c89",
+          "message": "feat(oneway): move a one-way cover to a percentage from the slider",
+          "date": "2026-11-22T13:43:26Z",
+          "url": "https://github.com/laberning/home_io_control/commit/af0c54e692225828a32efb54a89b4b871d1b4c89"
+        },
+        {
+          "sha": "6a1b32aae589b16086d334bef913f7391eb911ea",
+          "message": "feat(oneway): show a one-way controller as a light with brightness",
+          "date": "2026-11-22T13:10:59Z",
+          "url": "https://github.com/laberning/home_io_control/commit/6a1b32aae589b16086d334bef913f7391eb911ea"
+        },
+        {
+          "sha": "2e9050c60706a85b0ed7e5b0e5fe89fb2f68e0fa",
+          "message": "feat(oneway): show a one-way cover's position from its travel time",
+          "date": "2026-11-22T11:54:20Z",
+          "url": "https://github.com/laberning/home_io_control/commit/2e9050c60706a85b0ed7e5b0e5fe89fb2f68e0fa"
+        },
+        {
+          "sha": "7ecd3b0b3c615e0257faf7dc8c1dca837032bf95",
+          "message": "feat(oneway): add oneway_set_sequence to resync a controller without a reflash",
+          "date": "2026-11-22T11:28:30Z",
+          "url": "https://github.com/laberning/home_io_control/commit/7ecd3b0b3c615e0257faf7dc8c1dca837032bf95"
+        },
+        {
           "sha": "0bc490d622158f9eed12f304c094fabc379f8998",
           "message": "docs: bring the most-read pages up to date and restructure them (#256)",
           "date": "2026-11-22T10:02:08Z",
           "url": "https://github.com/laberning/home_io_control/commit/0bc490d622158f9eed12f304c094fabc379f8998"
-        },
-        {
-          "sha": "83bac759ca244c5f18fffe5709d300737c2d3b5d",
-          "message": "fix(status): read byte 0 of a limitation answer as result code and state",
-          "date": "2026-11-21T19:40:32Z",
-          "url": "https://github.com/laberning/home_io_control/commit/83bac759ca244c5f18fffe5709d300737c2d3b5d"
-        },
-        {
-          "sha": "054c63f47de834ea7a15e5a5a7d57a3c1e031db5",
-          "message": "fix(tuning): raise a deprecated low_power_wake_preamble below 300 ms to the wake-up floor",
-          "date": "2026-11-21T19:40:32Z",
-          "url": "https://github.com/laberning/home_io_control/commit/054c63f47de834ea7a15e5a5a7d57a3c1e031db5"
-        },
-        {
-          "sha": "44eeea694191497205b1ce8b6b041a033a10d043",
-          "message": "feat(oneway)!: send four short copies when low_power is unset, for every manufacturer",
-          "date": "2026-11-21T19:40:32Z",
-          "url": "https://github.com/laberning/home_io_control/commit/44eeea694191497205b1ce8b6b041a033a10d043"
-        },
-        {
-          "sha": "15fd474439ec0106e97377fc9595599c93eb13ba",
-          "message": "feat(oneway)!: remove enrollment_with_mac",
-          "date": "2026-11-21T19:40:32Z",
-          "url": "https://github.com/laberning/home_io_control/commit/15fd474439ec0106e97377fc9595599c93eb13ba"
-        },
-        {
-          "sha": "b37da15ac42e8676f5ee1bc880dcccf94d0290a4",
-          "message": "docs(adr): record that a PROG window takes one pair or unpair and Enroll keeps remove-then-add",
-          "date": "2026-11-21T19:40:32Z",
-          "url": "https://github.com/laberning/home_io_control/commit/b37da15ac42e8676f5ee1bc880dcccf94d0290a4"
-        },
-        {
-          "sha": "a02788802d48bcd4b1fdfffd64a3a7b78ddcee92",
-          "message": "feat(oneway): send the copies of a one-way burst back to back",
-          "date": "2026-11-21T19:40:32Z",
-          "url": "https://github.com/laberning/home_io_control/commit/a02788802d48bcd4b1fdfffd64a3a7b78ddcee92"
         }
       ],
       "releases": [],
       "pull_requests": [
+        {
+          "number": 257,
+          "title": "feat(pairing): push a key to a declared device by address, without discovery",
+          "state": "closed",
+          "updated_at": "2026-11-23T06:44:27Z",
+          "url": "https://github.com/laberning/home_io_control/pull/257"
+        },
         {
           "number": 256,
           "title": "docs: bring the most-read pages up to date and restructure them",
           "state": "closed",
           "updated_at": "2026-11-22T10:02:11Z",
           "url": "https://github.com/laberning/home_io_control/pull/256"
-        },
-        {
-          "number": 240,
-          "title": "docs(velux): two SSL shutters through a KLR 200 key, and a longer wake-up preamble for them",
-          "state": "closed",
-          "updated_at": "2026-11-21T14:24:45Z",
-          "url": "https://github.com/laberning/home_io_control/pull/240"
         }
       ],
       "errors": []
@@ -339,8 +394,51 @@
     {
       "repository": "maziggy/bambuddy",
       "commits": [],
-      "releases": [],
+      "releases": [
+        {
+          "tag": "v1.3.3b1-daily.20261122",
+          "name": "Daily Beta Build v1.3.3b1-daily.20261122",
+          "published_at": "2026-11-22T14:40:55Z",
+          "prerelease": true,
+          "url": "https://github.com/maziggy/bambuddy/releases/tag/v1.3.3b1-daily.20261122"
+        }
+      ],
       "pull_requests": [
+        {
+          "number": 3668,
+          "title": "Show unmet password requirements in user dialogs",
+          "state": "closed",
+          "updated_at": "2026-11-23T06:52:33Z",
+          "url": "https://github.com/maziggy/bambuddy/pull/3668"
+        },
+        {
+          "number": 3665,
+          "title": "Fix scrolling in tall dialogs on short viewports",
+          "state": "closed",
+          "updated_at": "2026-11-23T06:51:59Z",
+          "url": "https://github.com/maziggy/bambuddy/pull/3665"
+        },
+        {
+          "number": 3586,
+          "title": "Send a Spoolman spool's remaining weight to its AMS slot (set_filament_weight)",
+          "state": "open",
+          "updated_at": "2026-11-23T01:55:50Z",
+          "url": "https://github.com/maziggy/bambuddy/pull/3586"
+        },
+        {
+          "number": 3672,
+          "title": "Inventory: choose which spool an RFID tag belongs to (#3658)",
+          "state": "open",
+          "updated_at": "2026-11-22T22:30:03Z",
+          "url": "https://github.com/maziggy/bambuddy/pull/3672"
+        },
+        {
+          "number": 3667,
+          "title": "Projects: print a label for the bag of a project's finished parts (#3655)",
+          "state": "open",
+          "updated_at": "2026-11-22T18:18:56Z",
+          "url": "https://github.com/maziggy/bambuddy/pull/3667"
+        },
         {
           "number": 3635,
           "title": "Per-printer time-based reservations with reservation-aware auto-dispatch (#2785)",
@@ -382,20 +480,6 @@
           "state": "closed",
           "updated_at": "2026-11-22T08:41:39Z",
           "url": "https://github.com/maziggy/bambuddy/pull/3270"
-        },
-        {
-          "number": 3643,
-          "title": "File Manager: show a group of versions as one card, row or column entry (#3628)",
-          "state": "open",
-          "updated_at": "2026-11-21T18:47:06Z",
-          "url": "https://github.com/maziggy/bambuddy/pull/3643"
-        },
-        {
-          "number": 3630,
-          "title": "Inventory: print spool labels on a network Brother QL label printer (#3612)",
-          "state": "open",
-          "updated_at": "2026-11-21T15:26:40Z",
-          "url": "https://github.com/maziggy/bambuddy/pull/3630"
         }
       ],
       "errors": []
@@ -406,18 +490,81 @@
       "releases": [],
       "pull_requests": [
         {
-          "number": 14346,
-          "title": "Do not append empty grpcWeb trailer frame to trailers-only responses",
+          "number": 14351,
+          "title": "Answer 503 when auth-secret resolution fails",
           "state": "open",
-          "updated_at": "2026-11-22T12:08:28Z",
-          "url": "https://github.com/traefik/traefik/pull/14346"
+          "updated_at": "2026-11-23T05:20:28Z",
+          "url": "https://github.com/traefik/traefik/pull/14351"
+        },
+        {
+          "number": 14352,
+          "title": "Document the entryPoint read timeout in the NGINX migration guide",
+          "state": "open",
+          "updated_at": "2026-11-23T05:05:12Z",
+          "url": "https://github.com/traefik/traefik/pull/14352"
+        },
+        {
+          "number": 14350,
+          "title": "Rename the TLS-ALPN challenge provider to avoid resolver collision",
+          "state": "open",
+          "updated_at": "2026-11-23T02:09:59Z",
+          "url": "https://github.com/traefik/traefik/pull/14350"
+        },
+        {
+          "number": 14064,
+          "title": "Fix file provider middleware errors at startup",
+          "state": "open",
+          "updated_at": "2026-11-22T20:33:09Z",
+          "url": "https://github.com/traefik/traefik/pull/14064"
+        },
+        {
+          "number": 14300,
+          "title": "Fix Redis rate limiter not limiting when hash field order changes",
+          "state": "open",
+          "updated_at": "2026-11-22T19:46:58Z",
+          "url": "https://github.com/traefik/traefik/pull/14300"
+        },
+        {
+          "number": 14347,
+          "title": "Cancel the request handling when the entry point writeTimeout expires",
+          "state": "open",
+          "updated_at": "2026-11-22T19:27:45Z",
+          "url": "https://github.com/traefik/traefik/pull/14347"
         },
         {
           "number": 13187,
           "title": "Expose Allow0RTT and InitialPacketSize as HTTP3 configuration options.",
           "state": "open",
-          "updated_at": "2026-11-22T11:32:54Z",
+          "updated_at": "2026-11-22T18:24:04Z",
           "url": "https://github.com/traefik/traefik/pull/13187"
+        },
+        {
+          "number": 12264,
+          "title": "Support TCP middleware plugin",
+          "state": "open",
+          "updated_at": "2026-11-22T18:08:12Z",
+          "url": "https://github.com/traefik/traefik/pull/12264"
+        },
+        {
+          "number": 14223,
+          "title": "Fix nil EndpointSlice ready condition",
+          "state": "open",
+          "updated_at": "2026-11-22T17:19:00Z",
+          "url": "https://github.com/traefik/traefik/pull/14223"
+        },
+        {
+          "number": 14346,
+          "title": "Do not append empty grpcWeb trailer frame to trailers-only responses",
+          "state": "open",
+          "updated_at": "2026-11-22T16:06:41Z",
+          "url": "https://github.com/traefik/traefik/pull/14346"
+        },
+        {
+          "number": 14345,
+          "title": "Keep the directives that follow a rewrite ... break",
+          "state": "open",
+          "updated_at": "2026-11-22T14:56:29Z",
+          "url": "https://github.com/traefik/traefik/pull/14345"
         },
         {
           "number": 14343,
@@ -425,49 +572,6 @@
           "state": "closed",
           "updated_at": "2026-11-22T10:45:57Z",
           "url": "https://github.com/traefik/traefik/pull/14343"
-        },
-        {
-          "number": 14345,
-          "title": "Keep the directives that follow a rewrite ... break",
-          "state": "open",
-          "updated_at": "2026-11-22T10:37:20Z",
-          "url": "https://github.com/traefik/traefik/pull/14345"
-        },
-        {
-          "number": 14344,
-          "title": "Skip Kubernetes volume data directories",
-          "state": "open",
-          "updated_at": "2026-11-22T03:52:35Z",
-          "url": "https://github.com/traefik/traefik/pull/14344"
-        }
-      ],
-      "errors": []
-    },
-    {
-      "repository": "Dispatcharr/Dispatcharr",
-      "commits": [],
-      "releases": [],
-      "pull_requests": [
-        {
-          "number": 2023,
-          "title": "fix(docker): detect IPv6 without the missing ip command",
-          "state": "open",
-          "updated_at": "2026-11-22T05:54:58Z",
-          "url": "https://github.com/Dispatcharr/Dispatcharr/pull/2023"
-        },
-        {
-          "number": 1319,
-          "title": "feat(frontend): multi-word, accent-insensitive EPG channel filter",
-          "state": "closed",
-          "updated_at": "2026-11-21T19:37:31Z",
-          "url": "https://github.com/Dispatcharr/Dispatcharr/pull/1319"
-        },
-        {
-          "number": 2010,
-          "title": "fix(proxy): failover builds the stream URL with the profile it selected",
-          "state": "open",
-          "updated_at": "2026-11-21T18:54:23Z",
-          "url": "https://github.com/Dispatcharr/Dispatcharr/pull/2010"
         }
       ],
       "errors": []
@@ -476,92 +580,254 @@
       "repository": "getarcaneapp/arcane",
       "commits": [
         {
-          "sha": "76a3eb39c5e777f1078789dd0571f3ebfac0b5ff",
-          "message": "fix: upgrade copacetic to v0.3.1 (#4961)",
-          "date": "2026-11-22T05:14:23Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/76a3eb39c5e777f1078789dd0571f3ebfac0b5ff"
+          "sha": "5551cb6fed23c5bd2e5195841ac39b225ba09ec8",
+          "message": "fix: require permission in every environment for multi-environment actions (#4980)",
+          "date": "2026-11-23T05:20:46Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/5551cb6fed23c5bd2e5195841ac39b225ba09ec8"
         },
         {
-          "sha": "46d802ec64c5db00b4a156a6e34d948bda40896b",
-          "message": "feat: export and import projects with their volumes (#4888)",
-          "date": "2026-11-22T04:29:16Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/46d802ec64c5db00b4a156a6e34d948bda40896b"
+          "sha": "c38e0b85f9a3cd17d86083cc2e680a96f9dbdda7",
+          "message": "fix: check upgrade permission in every environment an upgrade job targets (#4979)",
+          "date": "2026-11-23T03:22:44Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/c38e0b85f9a3cd17d86083cc2e680a96f9dbdda7"
         },
         {
-          "sha": "459eef248cd214c08a8b28383e207ef6b97358dd",
-          "message": "fix: harden postgres schema timestamps and api key uniqueness (#4960)",
-          "date": "2026-11-22T01:08:25Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/459eef248cd214c08a8b28383e207ef6b97358dd"
+          "sha": "d5162e5a533b0f815c23fbb8acf298fdeae0f8f4",
+          "message": "perf: batch image update activity messages and release links (#4978)",
+          "date": "2026-11-23T03:22:16Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/d5162e5a533b0f815c23fbb8acf298fdeae0f8f4"
         },
         {
-          "sha": "a857e4b40f9ff3a1ef86d6f890d0529627ff4b46",
-          "message": "fix: detect Arcane container on TrueNAS via mountinfo (#4959)",
-          "date": "2026-11-22T00:58:10Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/a857e4b40f9ff3a1ef86d6f890d0529627ff4b46"
+          "sha": "fc9b597b926810f3d2b8da3d0bedca0424c88885",
+          "message": "chore(translations): update translations via Crowdin",
+          "date": "2026-11-23T03:15:07Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/fc9b597b926810f3d2b8da3d0bedca0424c88885"
         },
         {
-          "sha": "f1681190d3db1978defaac8556a46cb25850b403",
-          "message": "fix: keep code editor text selection usable on touch devices (#4958)",
-          "date": "2026-11-22T00:41:36Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/f1681190d3db1978defaac8556a46cb25850b403"
+          "sha": "67d9651acd8fd76bd1ef09c2420dd0134b391ef0",
+          "message": "fix(frontend): disambiguate duplicate PIDs in process table rows (#4976)",
+          "date": "2026-11-23T01:51:58Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/67d9651acd8fd76bd1ef09c2420dd0134b391ef0"
         },
         {
-          "sha": "d4c52be7a6363ae16dcb099ee5850dc4aadd5380",
-          "message": "chore: update agent guidance",
-          "date": "2026-11-22T00:13:49Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/d4c52be7a6363ae16dcb099ee5850dc4aadd5380"
+          "sha": "c9db781e7f520d5c200cbb0170fc611e2490eb02",
+          "message": "perf: lazy load editor language packs and split frontend chunks (#4973)",
+          "date": "2026-11-23T01:10:04Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/c9db781e7f520d5c200cbb0170fc611e2490eb02"
         },
         {
-          "sha": "1fe3932137145ead53211379081adaf050fd47a8",
-          "message": "fix: skip running container sizes when loading disk usage (#4957)",
-          "date": "2026-11-22T00:07:54Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/1fe3932137145ead53211379081adaf050fd47a8"
+          "sha": "4923978c26e6f138d019ee2bfc85088c15de88d4",
+          "message": "perf: reuse digests and cache registry auth during image update checks (#4972)",
+          "date": "2026-11-23T01:09:51Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/4923978c26e6f138d019ee2bfc85088c15de88d4"
         },
         {
-          "sha": "269abd50ab74589a88cd980c74b28019180a0144",
-          "message": "fix: create .env and override files from the file dialog (#4956)",
-          "date": "2026-11-21T23:37:27Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/269abd50ab74589a88cd980c74b28019180a0144"
+          "sha": "f714c33016e5cfbe5cc6d36ff4cc8d6d9e47d395",
+          "message": "chore: pre pull tools image",
+          "date": "2026-11-22T23:23:07Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/f714c33016e5cfbe5cc6d36ff4cc8d6d9e47d395"
         },
         {
-          "sha": "8f7a7b9af18732ebfa4d317611a7c408e096d885",
-          "message": "fix(images): restore container-backed used-by display (#4951)",
-          "date": "2026-11-21T23:15:04Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/8f7a7b9af18732ebfa4d317611a7c408e096d885"
+          "sha": "4d4e52ff6cc27fc56996bd671590c6145d91bf20",
+          "message": "perf: speed up image update scanning across registries (#4970)",
+          "date": "2026-11-22T22:59:14Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/4d4e52ff6cc27fc56996bd671590c6145d91bf20"
         },
         {
-          "sha": "f4692473bccc60301c0560d6767355458c7ce7b4",
-          "message": "fix: skip pulling images that compose builds produce (#4953)",
-          "date": "2026-11-21T23:10:25Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/f4692473bccc60301c0560d6767355458c7ce7b4"
+          "sha": "c48653c09c7fdc5eb07ce9a1ab95129d35d459c8",
+          "message": "fix: skip gitops sync runs when the remote branch is unchanged (#4969)",
+          "date": "2026-11-22T22:39:09Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/c48653c09c7fdc5eb07ce9a1ab95129d35d459c8"
         },
         {
-          "sha": "0de0f9bc38cc580e81c21f842856bd517e124a94",
-          "message": "refactor: use kits semver moodule",
-          "date": "2026-11-21T19:33:34Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/0de0f9bc38cc580e81c21f842856bd517e124a94"
+          "sha": "5bcb5f5514b0d0ab88d8e62b16bb6a0fa735f852",
+          "message": "fix: report rejected registry credentials as bad request (#4968)",
+          "date": "2026-11-22T21:42:53Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/5bcb5f5514b0d0ab88d8e62b16bb6a0fa735f852"
         },
         {
-          "sha": "9b0badc17386167bb20e7f25f15b97823469a7cc",
-          "message": "chore: bump deps",
-          "date": "2026-11-21T18:45:14Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/9b0badc17386167bb20e7f25f15b97823469a7cc"
-        },
-        {
-          "sha": "828e5df01a34a5b94427a0876bbeb1ebb3fb7d1d",
-          "message": "fix: clone build git refs including tags, custom refs, and SHAs (#4950)",
-          "date": "2026-11-21T18:39:09Z",
-          "url": "https://github.com/getarcaneapp/arcane/commit/828e5df01a34a5b94427a0876bbeb1ebb3fb7d1d"
+          "sha": "742f2b3f6c30b7ff1ee3a153fe466a12b1e6cd7d",
+          "message": "fix: discover local backups after Arcane's data volume is lost (#4966)",
+          "date": "2026-11-22T21:22:17Z",
+          "url": "https://github.com/getarcaneapp/arcane/commit/742f2b3f6c30b7ff1ee3a153fe466a12b1e6cd7d"
         }
       ],
       "releases": [],
       "pull_requests": [
         {
+          "number": 4985,
+          "title": "fix(cli): update projects only when a new image exists",
+          "state": "open",
+          "updated_at": "2026-11-23T07:25:30Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4985"
+        },
+        {
+          "number": 4982,
+          "title": "fix: update projects from webhooks only when a new image exists",
+          "state": "open",
+          "updated_at": "2026-11-23T07:23:39Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4982"
+        },
+        {
           "number": 4947,
           "title": "feat: add opt-in mode for auto-update and auto-heal",
           "state": "open",
-          "updated_at": "2026-11-22T13:08:36Z",
+          "updated_at": "2026-11-23T07:03:35Z",
           "url": "https://github.com/getarcaneapp/arcane/pull/4947"
+        },
+        {
+          "number": 4861,
+          "title": "feat: add external secret sources for variables",
+          "state": "open",
+          "updated_at": "2026-11-23T07:02:41Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4861"
+        },
+        {
+          "number": 4980,
+          "title": "fix: require permission in every environment for multi-environment actions",
+          "state": "closed",
+          "updated_at": "2026-11-23T05:20:49Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4980"
+        },
+        {
+          "number": 4979,
+          "title": "fix: check upgrade permission in every environment an upgrade job targets",
+          "state": "closed",
+          "updated_at": "2026-11-23T03:22:47Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4979"
+        },
+        {
+          "number": 4978,
+          "title": "perf: batch image update activity messages and release links",
+          "state": "closed",
+          "updated_at": "2026-11-23T03:22:20Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4978"
+        },
+        {
+          "number": 4862,
+          "title": "refactor: move UI primitives into packages/ui workspace",
+          "state": "closed",
+          "updated_at": "2026-11-23T02:34:20Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4862"
+        },
+        {
+          "number": 4976,
+          "title": "fix(frontend): disambiguate duplicate PIDs in process table rows",
+          "state": "closed",
+          "updated_at": "2026-11-23T01:51:59Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4976"
+        },
+        {
+          "number": 4973,
+          "title": "perf: lazy load editor language packs and split frontend chunks",
+          "state": "closed",
+          "updated_at": "2026-11-23T01:10:07Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4973"
+        },
+        {
+          "number": 4972,
+          "title": "perf: reuse digests and cache registry auth during image update checks",
+          "state": "closed",
+          "updated_at": "2026-11-23T01:09:54Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4972"
+        },
+        {
+          "number": 4975,
+          "title": "fix(frontend): disambiguate duplicate PIDs in process table rows",
+          "state": "closed",
+          "updated_at": "2026-11-23T00:09:49Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4975"
+        },
+        {
+          "number": 4970,
+          "title": "perf: speed up image update scanning across registries",
+          "state": "closed",
+          "updated_at": "2026-11-22T22:59:17Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4970"
+        },
+        {
+          "number": 4961,
+          "title": "fix: upgrade copacetic to v0.3.1",
+          "state": "closed",
+          "updated_at": "2026-11-22T22:49:50Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4961"
+        },
+        {
+          "number": 4969,
+          "title": "fix: skip gitops sync runs when the remote branch is unchanged",
+          "state": "closed",
+          "updated_at": "2026-11-22T22:39:12Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4969"
+        },
+        {
+          "number": 4968,
+          "title": "fix: report rejected registry credentials as bad request",
+          "state": "closed",
+          "updated_at": "2026-11-22T21:42:58Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4968"
+        },
+        {
+          "number": 4966,
+          "title": "fix: discover local backups after Arcane's data volume is lost",
+          "state": "closed",
+          "updated_at": "2026-11-22T21:24:08Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4966"
+        },
+        {
+          "number": 4894,
+          "title": "feat: manual project backups (files and volumes in one snapshot)",
+          "state": "open",
+          "updated_at": "2026-11-22T20:49:27Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4894"
+        },
+        {
+          "number": 4891,
+          "title": "fix: set up frontend telemetry reactively instead of blocking load",
+          "state": "closed",
+          "updated_at": "2026-11-22T20:14:26Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4891"
+        },
+        {
+          "number": 4901,
+          "title": "feat: global backup setups for system, projects and volumes",
+          "state": "open",
+          "updated_at": "2026-11-22T18:53:31Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4901"
+        },
+        {
+          "number": 4898,
+          "title": "feat: schedule project backups with retention",
+          "state": "open",
+          "updated_at": "2026-11-22T18:50:06Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4898"
+        },
+        {
+          "number": 4907,
+          "title": "feat!: back up Arcane only in system backups",
+          "state": "open",
+          "updated_at": "2026-11-22T18:49:47Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4907"
+        },
+        {
+          "number": 4897,
+          "title": "feat: restore project backups in place or as a new project",
+          "state": "open",
+          "updated_at": "2026-11-22T18:43:27Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4897"
+        },
+        {
+          "number": 4815,
+          "title": "fix: return 400 for malformed references in the image update check",
+          "state": "closed",
+          "updated_at": "2026-11-22T16:07:15Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4815"
+        },
+        {
+          "number": 4688,
+          "title": "perf: check backup restore selections per folder",
+          "state": "closed",
+          "updated_at": "2026-11-22T15:15:23Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4688"
         },
         {
           "number": 4962,
@@ -583,118 +849,57 @@
           "state": "closed",
           "updated_at": "2026-11-22T07:35:46Z",
           "url": "https://github.com/getarcaneapp/arcane/pull/4887"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "repository": "agittins/bermuda",
+      "commits": [],
+      "releases": [],
+      "pull_requests": [
+        {
+          "number": 897,
+          "title": "chore(deps): bump the all-dependencies group across 1 directory with 2 updates",
+          "state": "open",
+          "updated_at": "2026-11-23T06:59:21Z",
+          "url": "https://github.com/agittins/bermuda/pull/897"
         },
         {
-          "number": 4961,
-          "title": "fix: upgrade copacetic to v0.3.1",
+          "number": 899,
+          "title": "chore(deps): bump release-drafter/release-drafter from 7.10.0 to 7.11.0 in the all-dependencies group across 1 directory",
+          "state": "open",
+          "updated_at": "2026-11-23T06:57:05Z",
+          "url": "https://github.com/agittins/bermuda/pull/899"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "repository": "dirkhh/adsb-feeder-image",
+      "commits": [],
+      "releases": [],
+      "pull_requests": [
+        {
+          "number": 454,
+          "title": "acarsdec: send to acars_router over zmq so ACARS works with docker IPv6 enabled",
           "state": "closed",
-          "updated_at": "2026-11-22T05:14:27Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4961"
+          "updated_at": "2026-11-22T21:46:56Z",
+          "url": "https://github.com/dirkhh/adsb-feeder-image/pull/454"
         },
         {
-          "number": 4888,
-          "title": "feat: export and import projects with their volumes",
+          "number": 455,
+          "title": "aggregators: add Metar Atlas",
           "state": "closed",
-          "updated_at": "2026-11-22T04:29:17Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4888"
+          "updated_at": "2026-11-22T21:44:05Z",
+          "url": "https://github.com/dirkhh/adsb-feeder-image/pull/455"
         },
         {
-          "number": 4960,
-          "title": "fix: harden postgres schema timestamps and api key uniqueness",
+          "number": 457,
+          "title": "log-sanitizer: redact the global name and the dash-free mDNS alias",
           "state": "closed",
-          "updated_at": "2026-11-22T01:08:28Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4960"
-        },
-        {
-          "number": 4959,
-          "title": "fix: detect Arcane container on TrueNAS via mountinfo",
-          "state": "closed",
-          "updated_at": "2026-11-22T00:58:13Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4959"
-        },
-        {
-          "number": 4892,
-          "title": "fix: align container create and edit page headers",
-          "state": "closed",
-          "updated_at": "2026-11-22T00:45:34Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4892"
-        },
-        {
-          "number": 4958,
-          "title": "fix: keep code editor text selection usable on touch devices",
-          "state": "closed",
-          "updated_at": "2026-11-22T00:41:40Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4958"
-        },
-        {
-          "number": 4865,
-          "title": "feat: add adjustable background image blur",
-          "state": "closed",
-          "updated_at": "2026-11-22T00:20:36Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4865"
-        },
-        {
-          "number": 4957,
-          "title": "fix: skip running container sizes when loading disk usage",
-          "state": "closed",
-          "updated_at": "2026-11-22T00:07:58Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4957"
-        },
-        {
-          "number": 4956,
-          "title": "fix: create .env and override files from the file dialog",
-          "state": "closed",
-          "updated_at": "2026-11-21T23:37:30Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4956"
-        },
-        {
-          "number": 4951,
-          "title": "fix(images): restore container-backed used-by display",
-          "state": "closed",
-          "updated_at": "2026-11-21T23:16:10Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4951"
-        },
-        {
-          "number": 4953,
-          "title": "fix: skip pulling images that compose builds produce",
-          "state": "closed",
-          "updated_at": "2026-11-21T23:10:28Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4953"
-        },
-        {
-          "number": 4839,
-          "title": "ci: sync Crowdin translations through main before release",
-          "state": "closed",
-          "updated_at": "2026-11-21T21:52:01Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4839"
-        },
-        {
-          "number": 4855,
-          "title": "fix: open SQLite read pool in agent mode",
-          "state": "closed",
-          "updated_at": "2026-11-21T20:22:36Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4855"
-        },
-        {
-          "number": 4950,
-          "title": "fix: clone build git refs including tags, custom refs, and SHAs",
-          "state": "closed",
-          "updated_at": "2026-11-21T18:39:12Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4950"
-        },
-        {
-          "number": 4943,
-          "title": "Update Esperanto translation strings",
-          "state": "closed",
-          "updated_at": "2026-11-21T18:04:11Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4943"
-        },
-        {
-          "number": 4949,
-          "title": "fix: keep image project usage visible without containers",
-          "state": "closed",
-          "updated_at": "2026-11-21T17:59:38Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4949"
+          "updated_at": "2026-11-22T21:43:19Z",
+          "url": "https://github.com/dirkhh/adsb-feeder-image/pull/457"
         }
       ],
       "errors": []
@@ -705,11 +910,25 @@
       "releases": [],
       "pull_requests": [
         {
-          "number": 3809,
-          "title": "Add support for Forever Young RTH11 temperature and humidity sensor",
+          "number": 3810,
+          "title": "Add support for ThermoMaven WTP meat thermometer probes",
           "state": "open",
-          "updated_at": "2026-11-22T05:31:25Z",
-          "url": "https://github.com/merbanan/rtl_433/pull/3809"
+          "updated_at": "2026-11-23T06:18:41Z",
+          "url": "https://github.com/merbanan/rtl_433/pull/3810"
+        },
+        {
+          "number": 3811,
+          "title": "Fix(http_server): Eliminate NULL pointer dereference in rpc_exec function",
+          "state": "open",
+          "updated_at": "2026-11-23T06:17:25Z",
+          "url": "https://github.com/merbanan/rtl_433/pull/3811"
+        },
+        {
+          "number": 3628,
+          "title": "typhur_sync_gold: fix WT10 temperature/battery scaling, add variant detection",
+          "state": "open",
+          "updated_at": "2026-11-23T05:46:26Z",
+          "url": "https://github.com/merbanan/rtl_433/pull/3628"
         }
       ],
       "errors": []
@@ -717,6 +936,72 @@
     {
       "repository": "hagezi/dns-blocklists",
       "commits": [
+        {
+          "sha": "0a1435e6e4099f9771c55bdeb1a23c2ca5572e59",
+          "message": "release",
+          "date": "2026-11-22T23:59:07Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/0a1435e6e4099f9771c55bdeb1a23c2ca5572e59"
+        },
+        {
+          "sha": "a1535e5eff3c0c58932288111e3a80b6e5d2ee7d",
+          "message": "release - fix size",
+          "date": "2026-11-22T18:57:39Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/a1535e5eff3c0c58932288111e3a80b6e5d2ee7d"
+        },
+        {
+          "sha": "d472468248d3b16f3b0fa88d88453e49351a7c93",
+          "message": "revert",
+          "date": "2026-11-22T16:20:53Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/d472468248d3b16f3b0fa88d88453e49351a7c93"
+        },
+        {
+          "sha": "3411b24e1a3a2cd507a1dea8f927e2abd787f8af",
+          "message": "revert",
+          "date": "2026-11-22T16:20:28Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/3411b24e1a3a2cd507a1dea8f927e2abd787f8af"
+        },
+        {
+          "sha": "e7b94d36c1cd0651006f80cc706855b68abd87a8",
+          "message": "revert",
+          "date": "2026-11-22T16:19:19Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/e7b94d36c1cd0651006f80cc706855b68abd87a8"
+        },
+        {
+          "sha": "e95f440a94fe5245b341189ffe54e07734f12397",
+          "message": "release",
+          "date": "2026-11-22T16:07:22Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/e95f440a94fe5245b341189ffe54e07734f12397"
+        },
+        {
+          "sha": "5d5ed9aa1140731bbe313bb866b777f470680685",
+          "message": "Remove truthfulness checkbox from denylist request",
+          "date": "2026-11-22T15:02:07Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/5d5ed9aa1140731bbe313bb866b777f470680685"
+        },
+        {
+          "sha": "2d186a797c83f77bd78d823514d934e7fb15f574",
+          "message": "Remove truthfulness checkbox from allowlist template",
+          "date": "2026-11-22T15:01:43Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/2d186a797c83f77bd78d823514d934e7fb15f574"
+        },
+        {
+          "sha": "0f65f99fb71a479ac6653b5accda4b70203b9920",
+          "message": "Add 'DNS Rebind Protection' to denylist request template",
+          "date": "2026-11-22T15:00:16Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/0f65f99fb71a479ac6653b5accda4b70203b9920"
+        },
+        {
+          "sha": "d03e135bdaa4f7ad444e660d178833ad7b25b60c",
+          "message": "Add 'Rebind Protection' to denylist request options",
+          "date": "2026-11-22T14:59:09Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/d03e135bdaa4f7ad444e660d178833ad7b25b60c"
+        },
+        {
+          "sha": "099a7a5fc9477adf063454ed578d1edee26cf795",
+          "message": "Add 'Rebind Protection' to allowlist request template",
+          "date": "2026-11-22T14:58:42Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/099a7a5fc9477adf063454ed578d1edee26cf795"
+        },
         {
           "sha": "2960b6a6ab2b3663d461608387c78c19d3b511b4",
           "message": "release",
@@ -728,21 +1013,15 @@
           "message": "release",
           "date": "2026-11-22T09:14:34Z",
           "url": "https://github.com/hagezi/dns-blocklists/commit/9d25c26b329a718f864ee20d3ca2ee9912d6a5fb"
-        },
-        {
-          "sha": "c15030cf263d495b4a2fa2ace43937a59b4ce1d2",
-          "message": "release",
-          "date": "2026-11-22T00:06:06Z",
-          "url": "https://github.com/hagezi/dns-blocklists/commit/c15030cf263d495b4a2fa2ace43937a59b4ce1d2"
         }
       ],
       "releases": [
         {
-          "tag": "37522026.326.44271",
-          "name": "37522026.326.44271",
-          "published_at": "2026-11-22T12:17:53Z",
+          "tag": "37522026.327.157",
+          "name": "37522026.327.157",
+          "published_at": "2026-11-23T00:02:39Z",
           "prerelease": false,
-          "url": "https://github.com/hagezi/dns-blocklists/releases/tag/37522026.326.44271"
+          "url": "https://github.com/hagezi/dns-blocklists/releases/tag/37522026.327.157"
         }
       ],
       "pull_requests": [],
@@ -751,6 +1030,42 @@
     {
       "repository": "bramstroker/homeassistant-powercalc",
       "commits": [
+        {
+          "sha": "11abe45df55f62eb61b28366cbe9b79cce4963f2",
+          "message": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.17.6 (#5222)",
+          "date": "2026-11-23T01:01:48Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/commit/11abe45df55f62eb61b28366cbe9b79cce4963f2"
+        },
+        {
+          "sha": "89302c47b480a6aa3b2652a326733d12b474df1c",
+          "message": "chore(profile): update generated library",
+          "date": "2026-11-22T16:21:48Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/commit/89302c47b480a6aa3b2652a326733d12b474df1c"
+        },
+        {
+          "sha": "f40a15e0d55383f529903ea0d338bd4f6a679814",
+          "message": "chore(profile): generate plots",
+          "date": "2026-11-22T16:20:58Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/commit/f40a15e0d55383f529903ea0d338bd4f6a679814"
+        },
+        {
+          "sha": "4328c81e400980b043874ad2dfd25ad4c4805031",
+          "message": "Merge pull request #5213 from petervk/powercalc-profile-signify-lca017",
+          "date": "2026-11-22T16:20:34Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/commit/4328c81e400980b043874ad2dfd25ad4c4805031"
+        },
+        {
+          "sha": "bfc95852dd7f9180dfd3644427166c4e8f9d785f",
+          "message": "fix: remove LCA017 printed part-number alias",
+          "date": "2026-11-22T14:52:17Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/commit/bfc95852dd7f9180dfd3644427166c4e8f9d785f"
+        },
+        {
+          "sha": "c5163f92376376998959b7d7bc55e76a804ea8ab",
+          "message": "fix: add LCA017 Z2M model ID alias and two-pack GTIN",
+          "date": "2026-11-22T14:42:50Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/commit/c5163f92376376998959b7d7bc55e76a804ea8ab"
+        },
         {
           "sha": "f903816e67fadb3476d2537cf9a69cae0a4c9844",
           "message": "Merge pull request #5216 from bramstroker/chore/measure-runtime-versions",
@@ -774,21 +1089,141 @@
           "message": "chore: align measure and CI runtime versions",
           "date": "2026-11-22T07:54:49Z",
           "url": "https://github.com/bramstroker/homeassistant-powercalc/commit/62a1605217bd5974c2a947404c7d9b0418aba0a1"
-        },
-        {
-          "sha": "6d65d271d67aaf50e2bbbe726fccd425cba4797a",
-          "message": "docs: use the Home Assistant Marketplace for installation",
-          "date": "2026-11-22T07:07:05Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/commit/6d65d271d67aaf50e2bbbe726fccd425cba4797a"
         }
       ],
       "releases": [],
       "pull_requests": [
         {
+          "number": 5227,
+          "title": "chore(deps): refresh",
+          "state": "open",
+          "updated_at": "2026-11-23T01:04:54Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5227"
+        },
+        {
+          "number": 5221,
+          "title": "chore(deps): update home-assistant/actions digest to 07f46fd",
+          "state": "open",
+          "updated_at": "2026-11-23T01:02:51Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5221"
+        },
+        {
+          "number": 5222,
+          "title": "chore(deps): update pre-commit hook astral-sh/ruff-pre-commit to v0.17.6",
+          "state": "closed",
+          "updated_at": "2026-11-23T01:01:51Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5222"
+        },
+        {
+          "number": 5226,
+          "title": "Add profile for Shelly AZ Plug (S3PL-10112EU)",
+          "state": "open",
+          "updated_at": "2026-11-23T00:09:26Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5226"
+        },
+        {
+          "number": 5225,
+          "title": "Add profile for Shelly Plug PM Gen3 (S3PL-30116EU)",
+          "state": "open",
+          "updated_at": "2026-11-22T23:49:24Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5225"
+        },
+        {
+          "number": 5190,
+          "title": "Add signify LCA022 power profile",
+          "state": "open",
+          "updated_at": "2026-11-22T23:12:51Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5190"
+        },
+        {
+          "number": 5224,
+          "title": "Add EcoFlow Smart Plug SG3 (EF3PL-00112EU, linked to Shelly Plug S Gen3)",
+          "state": "open",
+          "updated_at": "2026-11-22T22:42:08Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5224"
+        },
+        {
+          "number": 5045,
+          "title": "feat(profile): add EcoFlow Smart Plug SG3 (EF3PL-00112EU, linked to Shelly Plug S Gen3)",
+          "state": "open",
+          "updated_at": "2026-11-22T22:33:49Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5045"
+        },
+        {
+          "number": 5223,
+          "title": "Add signify 1746330P7 power profile",
+          "state": "open",
+          "updated_at": "2026-11-22T21:36:38Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5223"
+        },
+        {
+          "number": 5169,
+          "title": "Add Dreame/Mova E30 Ultra power profile",
+          "state": "open",
+          "updated_at": "2026-11-22T21:28:23Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5169"
+        },
+        {
+          "number": 5220,
+          "title": "Add nanoleaf NL42 power profile",
+          "state": "open",
+          "updated_at": "2026-11-22T20:55:09Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5220"
+        },
+        {
+          "number": 5200,
+          "title": "Add Shelly Power Strip 4 Gen4 (S4PL-00416EU)",
+          "state": "open",
+          "updated_at": "2026-11-22T20:36:32Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5200"
+        },
+        {
+          "number": 5218,
+          "title": "fix(profile): correct SONOFF ZBMINIR2 standby and on power values",
+          "state": "open",
+          "updated_at": "2026-11-22T18:51:11Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5218"
+        },
+        {
+          "number": 5197,
+          "title": "Add profile for Canon TS5000 series",
+          "state": "open",
+          "updated_at": "2026-11-22T18:37:56Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5197"
+        },
+        {
+          "number": 5154,
+          "title": "feat(standby-group): add an optional active group",
+          "state": "open",
+          "updated_at": "2026-11-22T18:32:28Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5154"
+        },
+        {
+          "number": 5219,
+          "title": "feat(profile): add Shelly Outdoor Plug S Gen3 as linked profile",
+          "state": "open",
+          "updated_at": "2026-11-22T18:28:28Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5219"
+        },
+        {
+          "number": 5167,
+          "title": "feat(standby): allow standby_power_on for manually configured sensors",
+          "state": "open",
+          "updated_at": "2026-11-22T17:51:00Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5167"
+        },
+        {
+          "number": 5213,
+          "title": "Add signify LCA017 power profile",
+          "state": "closed",
+          "updated_at": "2026-11-22T16:21:00Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5213"
+        },
+        {
           "number": 5150,
           "title": "Add nanoleaf NL29 power profile",
           "state": "open",
-          "updated_at": "2026-11-22T14:20:59Z",
+          "updated_at": "2026-11-22T21:21:17Z",
           "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5150"
         },
         {
@@ -804,27 +1239,6 @@
           "state": "closed",
           "updated_at": "2026-11-22T07:58:24Z",
           "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5215"
-        },
-        {
-          "number": 5212,
-          "title": "Feat/inherit statistic for standard group",
-          "state": "open",
-          "updated_at": "2026-11-22T06:46:21Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5212"
-        },
-        {
-          "number": 5213,
-          "title": "Add signify LCA017 power profile",
-          "state": "open",
-          "updated_at": "2026-11-22T06:18:17Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5213"
-        },
-        {
-          "number": 5211,
-          "title": "Add missing Hue Centura Spot aliases",
-          "state": "open",
-          "updated_at": "2026-11-22T06:09:08Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5211"
         }
       ],
       "errors": []
@@ -838,22 +1252,22 @@
           "number": 240,
           "title": "Alpine apk sync",
           "state": "open",
-          "updated_at": "2026-11-22T01:55:58Z",
+          "updated_at": "2026-11-23T02:18:31Z",
           "url": "https://github.com/andrius/asterisk/pull/240"
+        },
+        {
+          "number": 279,
+          "title": "New Asterisk Releases Update: 20.22.0 20.7-cert13 22.12.0 22.8-cert6 23.6.0 24.0.0",
+          "state": "open",
+          "updated_at": "2026-11-23T00:50:58Z",
+          "url": "https://github.com/andrius/asterisk/pull/279"
         },
         {
           "number": 278,
           "title": "New Asterisk Releases Update: 20.22.0 20.7-cert13 22.12.0 22.8-cert6 23.6.0 24.0.0",
-          "state": "open",
-          "updated_at": "2026-11-22T00:20:52Z",
-          "url": "https://github.com/andrius/asterisk/pull/278"
-        },
-        {
-          "number": 277,
-          "title": "New Asterisk Releases Update: 20.22.0 20.7-cert13 22.12.0 22.8-cert6 23.6.0 24.0.0",
           "state": "closed",
-          "updated_at": "2026-11-22T00:06:04Z",
-          "url": "https://github.com/andrius/asterisk/pull/277"
+          "updated_at": "2026-11-23T00:35:57Z",
+          "url": "https://github.com/andrius/asterisk/pull/278"
         }
       ],
       "errors": []
@@ -864,25 +1278,18 @@
       "releases": [],
       "pull_requests": [
         {
+          "number": 5992,
+          "title": "i18n(tr): translate the missing web UI strings and fix existing translations",
+          "state": "open",
+          "updated_at": "2026-11-22T14:31:43Z",
+          "url": "https://github.com/teslamate-org/teslamate/pull/5992"
+        },
+        {
           "number": 5989,
           "title": "fix(terrain): add the terrain elevation to drives whose stream carries no elevation",
           "state": "open",
           "updated_at": "2026-11-22T09:24:30Z",
           "url": "https://github.com/teslamate-org/teslamate/pull/5989"
-        },
-        {
-          "number": 5733,
-          "title": "Add per-geofence location detail visibility",
-          "state": "closed",
-          "updated_at": "2026-11-22T05:41:12Z",
-          "url": "https://github.com/teslamate-org/teslamate/pull/5733"
-        },
-        {
-          "number": 4069,
-          "title": "feat: extend version with more build info",
-          "state": "closed",
-          "updated_at": "2026-11-21T16:16:34Z",
-          "url": "https://github.com/teslamate-org/teslamate/pull/4069"
         }
       ],
       "errors": []
@@ -890,6 +1297,18 @@
     {
       "repository": "getwud/wud",
       "commits": [
+        {
+          "sha": "24195fa1370af399d7ecb76c11e3ae40df25731c",
+          "message": "docs: update UI screenshots [automated]",
+          "date": "2026-11-22T20:11:23Z",
+          "url": "https://github.com/getwud/wud/commit/24195fa1370af399d7ecb76c11e3ae40df25731c"
+        },
+        {
+          "sha": "bf0a860b2de07c52453c4ccf571fed0a300f433f",
+          "message": "🐛 [TRIGGER] Preserve file ownership and permissions when updating Docker Compose files (fixes #1577) (#1578)",
+          "date": "2026-11-22T20:07:26Z",
+          "url": "https://github.com/getwud/wud/commit/bf0a860b2de07c52453c4ccf571fed0a300f433f"
+        },
         {
           "sha": "ab484e4009de9f80515b15475d0ce1688f06f592",
           "message": "docs: update UI screenshots [automated]",
@@ -901,166 +1320,177 @@
           "message": "🐛 [WATCHER] Reconcile store containers on Docker event stream reconnect (fixes #1575) (#1576)",
           "date": "2026-11-22T11:01:40Z",
           "url": "https://github.com/getwud/wud/commit/c4a5ab6baf42c3ceb1489b984a9b48f039d64e4a"
-        },
-        {
-          "sha": "591d526abdc7b26ccafe7ccfb8edbe50ff0a168c",
-          "message": "docs: update UI screenshots [automated]",
-          "date": "2026-11-21T20:04:58Z",
-          "url": "https://github.com/getwud/wud/commit/591d526abdc7b26ccafe7ccfb8edbe50ff0a168c"
-        },
-        {
-          "sha": "0195d4eef1ad26b4eb88ee6c1e82934d57f6d419",
-          "message": "chore(release): 9.9.0",
-          "date": "2026-11-21T20:00:08Z",
-          "url": "https://github.com/getwud/wud/commit/0195d4eef1ad26b4eb88ee6c1e82934d57f6d419"
-        },
-        {
-          "sha": "b29c310355cc22a2f8a3405780330ec7d8e8c2b1",
-          "message": "docs: update UI screenshots [automated]",
-          "date": "2026-11-21T18:53:03Z",
-          "url": "https://github.com/getwud/wud/commit/b29c310355cc22a2f8a3405780330ec7d8e8c2b1"
-        },
-        {
-          "sha": "eed47ae7518bf05ef9238e95e2848e4e03364d4b",
-          "message": "🐛 [API] Harden trigger simulation endpoint and exec hook self-container guards (#1573)",
-          "date": "2026-11-21T18:49:43Z",
-          "url": "https://github.com/getwud/wud/commit/eed47ae7518bf05ef9238e95e2848e4e03364d4b"
-        },
-        {
-          "sha": "372c8e96b040bc8352e08f70e0e5bff23dec38b6",
-          "message": "docs: update UI screenshots [automated]",
-          "date": "2026-11-21T17:09:19Z",
-          "url": "https://github.com/getwud/wud/commit/372c8e96b040bc8352e08f70e0e5bff23dec38b6"
-        },
-        {
-          "sha": "51e5ee8cc518be27b44feb15a897c83a891f86a9",
-          "message": "🚀 [CORE] Reduce Docker image size by pruning build and runtime artifacts (#1572)",
-          "date": "2026-11-21T17:05:39Z",
-          "url": "https://github.com/getwud/wud/commit/51e5ee8cc518be27b44feb15a897c83a891f86a9"
         }
       ],
-      "releases": [
-        {
-          "tag": "9.9.0",
-          "name": "9.9.0",
-          "published_at": "2026-11-21T20:00:28Z",
-          "prerelease": false,
-          "url": "https://github.com/getwud/wud/releases/tag/9.9.0"
-        }
-      ],
+      "releases": [],
       "pull_requests": [
+        {
+          "number": 1578,
+          "title": "🐛 [TRIGGER] Preserve file ownership and permissions when updating Docker Compose files (fixes #1577)",
+          "state": "closed",
+          "updated_at": "2026-11-22T20:07:29Z",
+          "url": "https://github.com/getwud/wud/pull/1578"
+        },
         {
           "number": 1576,
           "title": "🐛 [WATCHER] Reconcile store containers on Docker event stream reconnect",
           "state": "closed",
           "updated_at": "2026-11-22T11:01:43Z",
           "url": "https://github.com/getwud/wud/pull/1576"
-        },
-        {
-          "number": 1573,
-          "title": "🐛 [API] Harden trigger simulation endpoint and exec hook self-container guards",
-          "state": "closed",
-          "updated_at": "2026-11-21T18:49:46Z",
-          "url": "https://github.com/getwud/wud/pull/1573"
-        },
-        {
-          "number": 1572,
-          "title": "🚀 [CORE] Reduce Docker image size by pruning build and runtime artifacts",
-          "state": "closed",
-          "updated_at": "2026-11-21T17:05:41Z",
-          "url": "https://github.com/getwud/wud/pull/1572"
         }
       ],
       "errors": []
     },
     {
       "repository": "paperless-ngx/paperless-ngx",
-      "commits": [],
+      "commits": [
+        {
+          "sha": "f722730db75495d0ee8d26d77c8730c95fff3219",
+          "message": "mb-5",
+          "date": "2026-11-22T21:21:40Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/commit/f722730db75495d0ee8d26d77c8730c95fff3219"
+        },
+        {
+          "sha": "886653836949301ee0534e86085c41cbcaa833f7",
+          "message": "Chore(deps): bump packages with open security advisories (#14810)",
+          "date": "2026-11-22T21:11:09Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/commit/886653836949301ee0534e86085c41cbcaa833f7"
+        },
+        {
+          "sha": "245e819cb56e90df4c07a84abb51f09445bba2b6",
+          "message": "Chore: Bumps nltk to 3.10.4 to clear its 14 Dependabot alerts (#14811)",
+          "date": "2026-11-22T18:42:18Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/commit/245e819cb56e90df4c07a84abb51f09445bba2b6"
+        },
+        {
+          "sha": "40fed2c70f6f735973080f9338c258056579f7f6",
+          "message": "Bumps psycopg-c to 3.3.8 (#14764)",
+          "date": "2026-11-22T18:06:36Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/commit/40fed2c70f6f735973080f9338c258056579f7f6"
+        },
+        {
+          "sha": "40598db447e08b5e71a71480239839417a31a8f4",
+          "message": "Fix/tweak: include other loopbacks in default ALLOWED_HOSTS (#14846)",
+          "date": "2026-11-22T17:27:53Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/commit/40598db447e08b5e71a71480239839417a31a8f4"
+        },
+        {
+          "sha": "d1e574ff8f85778f1bf117d372a2193146234bea",
+          "message": "Auto translate strings",
+          "date": "2026-11-22T16:51:28Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/commit/d1e574ff8f85778f1bf117d372a2193146234bea"
+        },
+        {
+          "sha": "94ee54e4a6807762dc3484e181f9a8fa7af5354f",
+          "message": "Enhancement: nested tag 'split' display (#14843)",
+          "date": "2026-11-22T16:49:24Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/commit/94ee54e4a6807762dc3484e181f9a8fa7af5354f"
+        },
+        {
+          "sha": "51499afa5ac3a9e75463033507c1f262c8c6ad29",
+          "message": "Feature: What's new (in-app release notes) (#14835)",
+          "date": "2026-11-22T16:48:54Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/commit/51499afa5ac3a9e75463033507c1f262c8c6ad29"
+        },
+        {
+          "sha": "d00da2b2ee7806d95d3749e1750cf4c36cb9f095",
+          "message": "Chore: bump jbig2enc to 0.32 (#14758)",
+          "date": "2026-11-22T16:41:39Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/commit/d00da2b2ee7806d95d3749e1750cf4c36cb9f095"
+        }
+      ],
       "releases": [],
       "pull_requests": [
+        {
+          "number": 14375,
+          "title": "Feature: allow skipping MFA for social (OIDC) logins",
+          "state": "closed",
+          "updated_at": "2026-11-23T03:08:48Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14375"
+        },
         {
           "number": 14813,
           "title": "New Crowdin translations by GitHub Action",
           "state": "open",
-          "updated_at": "2026-11-22T12:18:14Z",
+          "updated_at": "2026-11-23T00:36:39Z",
           "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14813"
         },
         {
-          "number": 14758,
-          "title": "Chore: Bumps jbig2enc to 0.32",
+          "number": 14851,
+          "title": "Enhancement: Answer chat questions from all retrieved chunks in one L…",
           "state": "open",
-          "updated_at": "2026-11-22T04:19:39Z",
-          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14758"
+          "updated_at": "2026-11-22T23:03:45Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14851"
         },
         {
-          "number": 14520,
-          "title": "Feature: dynamic \"today\" value for custom date field queries",
-          "state": "closed",
-          "updated_at": "2026-11-22T03:08:12Z",
-          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14520"
-        },
-        {
-          "number": 14524,
-          "title": "Fix: fix list type for api schema document object filters",
-          "state": "closed",
-          "updated_at": "2026-11-22T03:08:09Z",
-          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14524"
-        },
-        {
-          "number": 14517,
-          "title": "Chore(deps): Bump the uv group across 1 directory with 2 updates",
-          "state": "closed",
-          "updated_at": "2026-11-22T03:08:06Z",
-          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14517"
-        },
-        {
-          "number": 14526,
-          "title": "Fix: folder export with --delete fails on a stale manifest.json.tmp",
-          "state": "closed",
-          "updated_at": "2026-11-22T03:08:03Z",
-          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14526"
-        },
-        {
-          "number": 14445,
-          "title": "Chore: Refactor bulk edit to remove PDF knowledge",
-          "state": "closed",
-          "updated_at": "2026-11-22T03:08:00Z",
-          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14445"
-        },
-        {
-          "number": 14532,
-          "title": "Chore: Update uv to 0.13 for the eMudhra CA fixes",
-          "state": "closed",
-          "updated_at": "2026-11-22T03:07:57Z",
-          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14532"
-        },
-        {
-          "number": 14531,
-          "title": "Chore: Update uv 13.5+ + certifi 2026.10.19+",
-          "state": "closed",
-          "updated_at": "2026-11-22T03:07:54Z",
-          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14531"
-        },
-        {
-          "number": 14534,
-          "title": "Documentation: Add v3.3.4 changelog",
-          "state": "closed",
-          "updated_at": "2026-11-22T03:07:51Z",
-          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14534"
-        },
-        {
-          "number": 14843,
-          "title": "Enhancement: nested tag 'split' display",
+          "number": 14850,
+          "title": "Fix: Stream AI chat natively async so a disconnect cancels the LLM request",
           "state": "open",
-          "updated_at": "2026-11-22T00:09:43Z",
-          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14843"
+          "updated_at": "2026-11-22T22:42:03Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14850"
+        },
+        {
+          "number": 14817,
+          "title": "Chore: Remove dead code",
+          "state": "open",
+          "updated_at": "2026-11-22T22:37:55Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14817"
+        },
+        {
+          "number": 14838,
+          "title": "Chorehancement: Use a patched build of sqlite-vec",
+          "state": "open",
+          "updated_at": "2026-11-22T22:30:29Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14838"
+        },
+        {
+          "number": 14810,
+          "title": "Chore(deps): bump packages with open security advisories",
+          "state": "closed",
+          "updated_at": "2026-11-22T21:11:11Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14810"
+        },
+        {
+          "number": 14811,
+          "title": "Chore: Bumps nltk to 3.10.4 to clear its 14 Dependabot alerts",
+          "state": "closed",
+          "updated_at": "2026-11-22T18:42:21Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14811"
+        },
+        {
+          "number": 14764,
+          "title": "Chore: Bumps psycopg-c to 3.3.8",
+          "state": "closed",
+          "updated_at": "2026-11-22T18:06:39Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14764"
+        },
+        {
+          "number": 14846,
+          "title": "Fix/tweak: include other loopbacks in default ALLOWED_HOSTS",
+          "state": "closed",
+          "updated_at": "2026-11-22T17:27:56Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14846"
         },
         {
           "number": 14835,
           "title": "Feature: What's new (in-app release notes)",
-          "state": "open",
-          "updated_at": "2026-11-21T23:03:30Z",
+          "state": "closed",
+          "updated_at": "2026-11-22T16:58:31Z",
           "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14835"
+        },
+        {
+          "number": 14843,
+          "title": "Enhancement: nested tag 'split' display",
+          "state": "closed",
+          "updated_at": "2026-11-22T16:49:27Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14843"
+        },
+        {
+          "number": 14758,
+          "title": "Chore: Bumps jbig2enc to 0.32",
+          "state": "closed",
+          "updated_at": "2026-11-22T16:41:42Z",
+          "url": "https://github.com/paperless-ngx/paperless-ngx/pull/14758"
         }
       ],
       "errors": []
@@ -1091,28 +1521,31 @@
           "message": "Tests: Remove code for old phpunit",
           "date": "2026-11-22T11:25:27Z",
           "url": "https://github.com/roundcube/roundcubemail/commit/55b4baa67d91867ad36db4c6e03109e8edf96834"
-        },
-        {
-          "sha": "069b89eceb1a80f83d5a8b8814622cbb0912424d",
-          "message": "Update changelog",
-          "date": "2026-11-21T15:09:06Z",
-          "url": "https://github.com/roundcube/roundcubemail/commit/069b89eceb1a80f83d5a8b8814622cbb0912424d"
-        },
-        {
-          "sha": "6e3abc2a22f812fe1fff7eca970b3ba0728f1f1c",
-          "message": "Fix run time growing with the square of the input in rcube_text2html and rcube_vcard (#10426)",
-          "date": "2026-11-21T15:07:18Z",
-          "url": "https://github.com/roundcube/roundcubemail/commit/6e3abc2a22f812fe1fff7eca970b3ba0728f1f1c"
-        },
-        {
-          "sha": "800579f1ab791978b7ba1c768cbd2146fb9b8b03",
-          "message": "Fix vCard import error on a value ending with a single backslash (#10427)",
-          "date": "2026-11-21T14:54:58Z",
-          "url": "https://github.com/roundcube/roundcubemail/commit/800579f1ab791978b7ba1c768cbd2146fb9b8b03"
         }
       ],
       "releases": [],
       "pull_requests": [
+        {
+          "number": 10431,
+          "title": "Remove hardcoded colors from watermark",
+          "state": "open",
+          "updated_at": "2026-11-23T06:39:21Z",
+          "url": "https://github.com/roundcube/roundcubemail/pull/10431"
+        },
+        {
+          "number": 10430,
+          "title": "Contacts: Add an option to allow external contact photos",
+          "state": "open",
+          "updated_at": "2026-11-22T15:32:24Z",
+          "url": "https://github.com/roundcube/roundcubemail/pull/10430"
+        },
+        {
+          "number": 10429,
+          "title": "Fix links next to e-mail addresses and in mailto: URIs in plain text",
+          "state": "open",
+          "updated_at": "2026-11-22T15:08:13Z",
+          "url": "https://github.com/roundcube/roundcubemail/pull/10429"
+        },
         {
           "number": 10410,
           "title": "Contacts: Import e-mails, phones and addresses from current Google CSV exports",
@@ -1140,20 +1573,6 @@
           "state": "closed",
           "updated_at": "2026-11-22T11:36:28Z",
           "url": "https://github.com/roundcube/roundcubemail/pull/10416"
-        },
-        {
-          "number": 10426,
-          "title": "Fix run time growing with the square of the input in rcube_text2html and rcube_vcard",
-          "state": "closed",
-          "updated_at": "2026-11-21T15:07:19Z",
-          "url": "https://github.com/roundcube/roundcubemail/pull/10426"
-        },
-        {
-          "number": 10427,
-          "title": "Fix vCard import error on a value ending with a single backslash",
-          "state": "closed",
-          "updated_at": "2026-11-21T14:54:59Z",
-          "url": "https://github.com/roundcube/roundcubemail/pull/10427"
         }
       ],
       "errors": []
@@ -1169,13 +1588,6 @@
           "state": "closed",
           "updated_at": "2026-11-22T14:20:19Z",
           "url": "https://github.com/jomjol/AI-on-the-edge-device/pull/4200"
-        },
-        {
-          "number": 4204,
-          "title": "Add seven segment detection as alternative to the CNN for digit ROIs",
-          "state": "open",
-          "updated_at": "2026-11-21T14:38:18Z",
-          "url": "https://github.com/jomjol/AI-on-the-edge-device/pull/4204"
         }
       ],
       "errors": []
@@ -1184,69 +1596,100 @@
       "repository": "librenms/librenms",
       "commits": [
         {
+          "sha": "f52b9127594312b53add3a4c8a659a2723fddbb4",
+          "message": "API v1: base model repository and JSON:API errors (#21397)",
+          "date": "2026-11-23T06:48:25Z",
+          "url": "https://github.com/librenms/librenms/commit/f52b9127594312b53add3a4c8a659a2723fddbb4"
+        },
+        {
+          "sha": "62b422f117e3aae9d91a7f63038c41a31180c4c5",
+          "message": "Collect installed packages via HOST-RESOURCES-MIB hrSWInstalledTable (#21378)",
+          "date": "2026-11-23T06:33:12Z",
+          "url": "https://github.com/librenms/librenms/commit/62b422f117e3aae9d91a7f63038c41a31180c4c5"
+        },
+        {
+          "sha": "d0846eb1cb51da11cdd0fde85ef592539c594e30",
+          "message": "Proxmox: read guest CPU from the cluster resources (#21318)",
+          "date": "2026-11-22T15:40:30Z",
+          "url": "https://github.com/librenms/librenms/commit/d0846eb1cb51da11cdd0fde85ef592539c594e30"
+        },
+        {
+          "sha": "79e0c4b3f5ace9d62a47497f2ad9308d70fd053e",
+          "message": "fix unix agent settings default (#21396)",
+          "date": "2026-11-22T15:38:17Z",
+          "url": "https://github.com/librenms/librenms/commit/79e0c4b3f5ace9d62a47497f2ad9308d70fd053e"
+        },
+        {
           "sha": "f25325dd8ec893364d35c6feec756985de0b79b1",
           "message": "unix agent: use localhost option (#21394)",
           "date": "2026-11-22T08:06:39Z",
           "url": "https://github.com/librenms/librenms/commit/f25325dd8ec893364d35c6feec756985de0b79b1"
-        },
-        {
-          "sha": "da5fa9a24036549970dbdeb6a33718daf2e6e92e",
-          "message": "Use WriteInterface Ipmi,Mempools,Storage (#21384)",
-          "date": "2026-11-22T06:50:29Z",
-          "url": "https://github.com/librenms/librenms/commit/da5fa9a24036549970dbdeb6a33718daf2e6e92e"
-        },
-        {
-          "sha": "38c48f0b6cd2c977109f10a984d6f6620d82a3a2",
-          "message": "Rrdcached connect check (#21357)",
-          "date": "2026-11-22T05:38:14Z",
-          "url": "https://github.com/librenms/librenms/commit/38c48f0b6cd2c977109f10a984d6f6620d82a3a2"
-        },
-        {
-          "sha": "084c046a5886d4fa635c01f900fbd328048a3353",
-          "message": "port NTP Client to new graph setup as well as the generic stats graph (#21374)",
-          "date": "2026-11-22T04:50:18Z",
-          "url": "https://github.com/librenms/librenms/commit/084c046a5886d4fa635c01f900fbd328048a3353"
-        },
-        {
-          "sha": "0715a131c537c446976a975f4b1c1a9c4ce8312b",
-          "message": "Partial data fetching and caching to reduce backend calls (#21393)",
-          "date": "2026-11-21T20:22:48Z",
-          "url": "https://github.com/librenms/librenms/commit/0715a131c537c446976a975f4b1c1a9c4ce8312b"
-        },
-        {
-          "sha": "fd4cd8eae7b8c283eea240d0d6bc560f68104fe8",
-          "message": "Prevent js graph from using coarse data too early  (#21392)",
-          "date": "2026-11-21T20:08:34Z",
-          "url": "https://github.com/librenms/librenms/commit/fd4cd8eae7b8c283eea240d0d6bc560f68104fe8"
-        },
-        {
-          "sha": "d37aededd3a07811fdadf3117386ad6cf7a2344a",
-          "message": "Fix trend line values not shown (#21391)",
-          "date": "2026-11-21T19:52:30Z",
-          "url": "https://github.com/librenms/librenms/commit/d37aededd3a07811fdadf3117386ad6cf7a2344a"
-        },
-        {
-          "sha": "5bc25cc1bc3169a437bc82c7bb8e902a002972de",
-          "message": "Remove unused graph code (#21390)",
-          "date": "2026-11-21T17:29:47Z",
-          "url": "https://github.com/librenms/librenms/commit/5bc25cc1bc3169a437bc82c7bb8e902a002972de"
         }
       ],
       "releases": [],
       "pull_requests": [
         {
+          "number": 21400,
+          "title": "Modern sensors module",
+          "state": "open",
+          "updated_at": "2026-11-23T07:12:20Z",
+          "url": "https://github.com/librenms/librenms/pull/21400"
+        },
+        {
+          "number": 21397,
+          "title": "API v1: base model repository and JSON:API errors",
+          "state": "closed",
+          "updated_at": "2026-11-23T06:48:26Z",
+          "url": "https://github.com/librenms/librenms/pull/21397"
+        },
+        {
+          "number": 21377,
+          "title": "List applications vertically and link their docs on the edit apps page",
+          "state": "open",
+          "updated_at": "2026-11-23T06:43:37Z",
+          "url": "https://github.com/librenms/librenms/pull/21377"
+        },
+        {
           "number": 21395,
           "title": "Add Redfish polling method and sensors module",
           "state": "open",
-          "updated_at": "2026-11-22T13:53:29Z",
+          "updated_at": "2026-11-23T06:43:21Z",
           "url": "https://github.com/librenms/librenms/pull/21395"
+        },
+        {
+          "number": 21398,
+          "title": "API v1: alert rules resource",
+          "state": "open",
+          "updated_at": "2026-11-23T06:34:07Z",
+          "url": "https://github.com/librenms/librenms/pull/21398"
         },
         {
           "number": 21378,
           "title": "Collect installed packages via HOST-RESOURCES-MIB hrSWInstalledTable",
-          "state": "open",
-          "updated_at": "2026-11-22T08:34:35Z",
+          "state": "closed",
+          "updated_at": "2026-11-23T06:33:13Z",
           "url": "https://github.com/librenms/librenms/pull/21378"
+        },
+        {
+          "number": 21396,
+          "title": "Fix unix agent settings default",
+          "state": "closed",
+          "updated_at": "2026-11-22T15:40:38Z",
+          "url": "https://github.com/librenms/librenms/pull/21396"
+        },
+        {
+          "number": 21318,
+          "title": "Proxmox: read guest CPU from the cluster resources",
+          "state": "closed",
+          "updated_at": "2026-11-22T15:40:32Z",
+          "url": "https://github.com/librenms/librenms/pull/21318"
+        },
+        {
+          "number": 21349,
+          "title": "Fix possible creation issue after attempted rrd rename",
+          "state": "open",
+          "updated_at": "2026-11-22T15:20:55Z",
+          "url": "https://github.com/librenms/librenms/pull/21349"
         },
         {
           "number": 21394,
@@ -1254,161 +1697,43 @@
           "state": "closed",
           "updated_at": "2026-11-22T08:06:59Z",
           "url": "https://github.com/librenms/librenms/pull/21394"
-        },
-        {
-          "number": 21349,
-          "title": "Fix possible creation issue after attempted rrd rename",
-          "state": "open",
-          "updated_at": "2026-11-22T07:28:30Z",
-          "url": "https://github.com/librenms/librenms/pull/21349"
-        },
-        {
-          "number": 21384,
-          "title": "Use WriteInterface Ipmi,Mempools,Storage",
-          "state": "closed",
-          "updated_at": "2026-11-22T06:50:37Z",
-          "url": "https://github.com/librenms/librenms/pull/21384"
-        },
-        {
-          "number": 21357,
-          "title": "Rrdcached connect check",
-          "state": "closed",
-          "updated_at": "2026-11-22T05:38:15Z",
-          "url": "https://github.com/librenms/librenms/pull/21357"
-        },
-        {
-          "number": 21374,
-          "title": "port NTP Client to new graph setup as well as the generic stats graph",
-          "state": "closed",
-          "updated_at": "2026-11-22T04:50:20Z",
-          "url": "https://github.com/librenms/librenms/pull/21374"
-        },
-        {
-          "number": 21392,
-          "title": "Prevent js graph from using coarse data too early ",
-          "state": "closed",
-          "updated_at": "2026-11-22T03:23:01Z",
-          "url": "https://github.com/librenms/librenms/pull/21392"
-        },
-        {
-          "number": 19347,
-          "title": "OpenWrt: add temperature sensors and fix wireless sensor discovery - consolidated",
-          "state": "open",
-          "updated_at": "2026-11-22T00:26:28Z",
-          "url": "https://github.com/librenms/librenms/pull/19347"
-        },
-        {
-          "number": 21393,
-          "title": "JS Graphs: Partial data fetching and caching to reduce backend calls",
-          "state": "closed",
-          "updated_at": "2026-11-21T20:22:54Z",
-          "url": "https://github.com/librenms/librenms/pull/21393"
-        },
-        {
-          "number": 21391,
-          "title": "Fix trend line values not shown",
-          "state": "closed",
-          "updated_at": "2026-11-21T19:53:32Z",
-          "url": "https://github.com/librenms/librenms/pull/21391"
-        },
-        {
-          "number": 21377,
-          "title": "List applications vertically and link their docs on the edit apps page",
-          "state": "open",
-          "updated_at": "2026-11-21T19:23:39Z",
-          "url": "https://github.com/librenms/librenms/pull/21377"
-        },
-        {
-          "number": 21390,
-          "title": "Remove unused graph code",
-          "state": "closed",
-          "updated_at": "2026-11-21T17:29:52Z",
-          "url": "https://github.com/librenms/librenms/pull/21390"
-        },
-        {
-          "number": 21368,
-          "title": "Purge deleted applications and clear their alerts",
-          "state": "open",
-          "updated_at": "2026-11-21T14:34:20Z",
-          "url": "https://github.com/librenms/librenms/pull/21368"
         }
       ],
       "errors": []
     },
     {
       "repository": "bbernhard/signal-cli-rest-api",
-      "commits": [
-        {
-          "sha": "f96aeea42834093ff3fbc43993f27326b46d1c0a",
-          "message": "Merge pull request #923 from bbernhard/fix_attachment",
-          "date": "2026-11-21T19:19:57Z",
-          "url": "https://github.com/bbernhard/signal-cli-rest-api/commit/f96aeea42834093ff3fbc43993f27326b46d1c0a"
-        },
-        {
-          "sha": "7d6f745c085b597b2164879eb41889dc250f3104",
-          "message": "Parse attachment data URI parameters as MIME parameters",
-          "date": "2026-11-21T19:12:03Z",
-          "url": "https://github.com/bbernhard/signal-cli-rest-api/commit/7d6f745c085b597b2164879eb41889dc250f3104"
-        },
-        {
-          "sha": "893be5e3fc0418bc4b993967eb085e12be9d6c3b",
-          "message": "Keep attachment files in their temporary directory",
-          "date": "2026-11-21T19:11:46Z",
-          "url": "https://github.com/bbernhard/signal-cli-rest-api/commit/893be5e3fc0418bc4b993967eb085e12be9d6c3b"
-        }
-      ],
-      "releases": [
-        {
-          "tag": "0.102",
-          "name": "Version 0.102",
-          "published_at": "2026-11-21T20:10:36Z",
-          "prerelease": false,
-          "url": "https://github.com/bbernhard/signal-cli-rest-api/releases/tag/0.102"
-        }
-      ],
+      "commits": [],
+      "releases": [],
       "pull_requests": [
         {
-          "number": 923,
-          "title": "Fix attachment",
-          "state": "closed",
-          "updated_at": "2026-11-21T19:19:57Z",
-          "url": "https://github.com/bbernhard/signal-cli-rest-api/pull/923"
+          "number": 903,
+          "title": "Numberless account IDs",
+          "state": "open",
+          "updated_at": "2026-11-22T22:37:08Z",
+          "url": "https://github.com/bbernhard/signal-cli-rest-api/pull/903"
         }
       ],
       "errors": []
     },
     {
       "repository": "LMS-Community/slimserver",
-      "commits": [
-        {
-          "sha": "275e7005bb1ab030043bfcb393e21c42e2ed438b",
-          "message": "Merge pull request #1735 from arakeis/fix/1274-escaped-url-in-query",
-          "date": "2026-11-21T22:03:14Z",
-          "url": "https://github.com/LMS-Community/slimserver/commit/275e7005bb1ab030043bfcb393e21c42e2ed438b"
-        }
-      ],
+      "commits": [],
       "releases": [],
       "pull_requests": [
+        {
+          "number": 1736,
+          "title": "Podcasts: don't split an episode title containing \" - \" into artist and title",
+          "state": "open",
+          "updated_at": "2026-11-22T16:12:38Z",
+          "url": "https://github.com/LMS-Community/slimserver/pull/1736"
+        },
         {
           "number": 1737,
           "title": "Use a favorite's icon when its URL is played directly",
           "state": "closed",
           "updated_at": "2026-11-22T09:24:33Z",
           "url": "https://github.com/LMS-Community/slimserver/pull/1737"
-        },
-        {
-          "number": 1736,
-          "title": "Podcasts: don't split an episode title containing \" - \" into artist and title",
-          "state": "open",
-          "updated_at": "2026-11-22T09:21:30Z",
-          "url": "https://github.com/LMS-Community/slimserver/pull/1736"
-        },
-        {
-          "number": 1735,
-          "title": "Fix #1274 - don't unescape a remote URL because of an escaped URL in its query string",
-          "state": "closed",
-          "updated_at": "2026-11-21T22:03:15Z",
-          "url": "https://github.com/LMS-Community/slimserver/pull/1735"
         }
       ],
       "errors": []
@@ -1419,18 +1744,40 @@
       "releases": [],
       "pull_requests": [
         {
+          "number": 5817,
+          "title": "Add icon for halloy",
+          "state": "open",
+          "updated_at": "2026-11-22T18:11:42Z",
+          "url": "https://github.com/Devolutions/UniGetUI/pull/5817"
+        },
+        {
           "number": 5816,
           "title": "Update screenshot-database-v2.json",
           "state": "open",
           "updated_at": "2026-11-22T10:32:03Z",
           "url": "https://github.com/Devolutions/UniGetUI/pull/5816"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "repository": "TechnitiumSoftware/DnsServer",
+      "commits": [],
+      "releases": [],
+      "pull_requests": [
+        {
+          "number": 2307,
+          "title": "Update security",
+          "state": "closed",
+          "updated_at": "2026-11-23T07:28:44Z",
+          "url": "https://github.com/TechnitiumSoftware/DnsServer/pull/2307"
         },
         {
-          "number": 5814,
-          "title": "Add icons for RealiTLScanner, RealiTLScanner GUI and Loyalsoldier GeoIP (Scoop)",
+          "number": 2179,
+          "title": "Advanced Blocking App: Full AdGuard/AdBlock Rule Syntax Support (wildcards, regex, $important, $badfilter, $dnstype, $denyallow, $dnsrewrite)",
           "state": "open",
-          "updated_at": "2026-11-21T15:18:13Z",
-          "url": "https://github.com/Devolutions/UniGetUI/pull/5814"
+          "updated_at": "2026-11-23T04:13:24Z",
+          "url": "https://github.com/TechnitiumSoftware/DnsServer/pull/2179"
         }
       ],
       "errors": []
@@ -1439,32 +1786,128 @@
       "repository": "CJNE/ha-sunspec",
       "commits": [
         {
+          "sha": "99292fb2cc0e0a46581b1ceba81ca447797c6caa",
+          "message": "Merge pull request #490 from CJNE/version-0.1.1",
+          "date": "2026-11-22T19:09:48Z",
+          "url": "https://github.com/CJNE/ha-sunspec/commit/99292fb2cc0e0a46581b1ceba81ca447797c6caa"
+        },
+        {
+          "sha": "17b559bb68d66b7c350bef1459a5532ae5448317",
+          "message": "Version 0.1.1",
+          "date": "2026-11-22T18:46:19Z",
+          "url": "https://github.com/CJNE/ha-sunspec/commit/17b559bb68d66b7c350bef1459a5532ae5448317"
+        },
+        {
+          "sha": "c74dd80294305000dd52b65363f4a72f9997604b",
+          "message": "Give the wind direction Home Assistant's device class for it",
+          "date": "2026-11-22T15:50:13Z",
+          "url": "https://github.com/CJNE/ha-sunspec/commit/c74dd80294305000dd52b65363f4a72f9997604b"
+        },
+        {
+          "sha": "84b26ab924284afbd07e79c9385f31ef8b63198c",
+          "message": "Merge pull request #476 from CJNE/fix/direction-state-class",
+          "date": "2026-11-22T15:25:03Z",
+          "url": "https://github.com/CJNE/ha-sunspec/commit/84b26ab924284afbd07e79c9385f31ef8b63198c"
+        },
+        {
+          "sha": "bf07fb73a475ad1dd4cffa10c798688377a4a8f3",
+          "message": "Average wind directions and azimuths around the circle",
+          "date": "2026-11-22T15:11:29Z",
+          "url": "https://github.com/CJNE/ha-sunspec/commit/bf07fb73a475ad1dd4cffa10c798688377a4a8f3"
+        },
+        {
+          "sha": "ee1013501b6580f4c780fcc59336f5b82e66659d",
+          "message": "Merge pull request #489 from CJNE/fix/reactive-energy-counters",
+          "date": "2026-11-22T15:03:21Z",
+          "url": "https://github.com/CJNE/ha-sunspec/commit/ee1013501b6580f4c780fcc59336f5b82e66659d"
+        },
+        {
+          "sha": "c229cffb3dd032a078c8b223846cb3e7f9e7184d",
+          "message": "Merge pull request #488 from CJNE/fix/port-range",
+          "date": "2026-11-22T15:03:04Z",
+          "url": "https://github.com/CJNE/ha-sunspec/commit/c229cffb3dd032a078c8b223846cb3e7f9e7184d"
+        },
+        {
+          "sha": "6f4f1acdb113236d06b4428d7106798c6c836c35",
+          "message": "Merge pull request #487 from CJNE/test/inverter-fixture-keys",
+          "date": "2026-11-22T15:02:50Z",
+          "url": "https://github.com/CJNE/ha-sunspec/commit/6f4f1acdb113236d06b4428d7106798c6c836c35"
+        },
+        {
+          "sha": "1814a6b472d721f73e29c5cc974bcaeae16059c9",
+          "message": "Record reactive and apparent energy counters as running totals",
+          "date": "2026-11-22T14:23:45Z",
+          "url": "https://github.com/CJNE/ha-sunspec/commit/1814a6b472d721f73e29c5cc974bcaeae16059c9"
+        },
+        {
+          "sha": "c0af4b14d8a29cf3666bfd69fac9401f947c7e56",
+          "message": "Refuse a port above 65535 in setup and Reconfigure",
+          "date": "2026-11-22T14:08:25Z",
+          "url": "https://github.com/CJNE/ha-sunspec/commit/c0af4b14d8a29cf3666bfd69fac9401f947c7e56"
+        },
+        {
+          "sha": "e58d4db0a2239a893c51d359ef2e2c1b7c85f295",
+          "message": "Drop the duplicate and undefined keys from inverter.json",
+          "date": "2026-11-22T12:44:49Z",
+          "url": "https://github.com/CJNE/ha-sunspec/commit/e58d4db0a2239a893c51d359ef2e2c1b7c85f295"
+        },
+        {
           "sha": "0ffa237e52af5139861e5e1bb4ae57b8b8496e8d",
           "message": "Merge pull request #486 from CJNE/fix/reconfigure-connection",
           "date": "2026-11-22T08:36:42Z",
           "url": "https://github.com/CJNE/ha-sunspec/commit/0ffa237e52af5139861e5e1bb4ae57b8b8496e8d"
-        },
-        {
-          "sha": "a5ec888b94be392f08435670fd1f9fed007139df",
-          "message": "Move the connection from Configure to Reconfigure",
-          "date": "2026-11-22T00:37:42Z",
-          "url": "https://github.com/CJNE/ha-sunspec/commit/a5ec888b94be392f08435670fd1f9fed007139df"
         }
       ],
-      "releases": [],
+      "releases": [
+        {
+          "tag": "0.1.1",
+          "name": "Version 0.1.1",
+          "published_at": "2026-11-22T19:10:01Z",
+          "prerelease": true,
+          "url": "https://github.com/CJNE/ha-sunspec/releases/tag/0.1.1"
+        }
+      ],
       "pull_requests": [
+        {
+          "number": 491,
+          "title": "Bump https://github.com/astral-sh/ruff-pre-commit from v0.17.5 to 0.17.6",
+          "state": "open",
+          "updated_at": "2026-11-23T06:09:28Z",
+          "url": "https://github.com/CJNE/ha-sunspec/pull/491"
+        },
+        {
+          "number": 490,
+          "title": "Version 0.1.1",
+          "state": "closed",
+          "updated_at": "2026-11-22T19:09:49Z",
+          "url": "https://github.com/CJNE/ha-sunspec/pull/490"
+        },
+        {
+          "number": 476,
+          "title": "Average wind directions and azimuths around the circle",
+          "state": "closed",
+          "updated_at": "2026-11-22T15:25:38Z",
+          "url": "https://github.com/CJNE/ha-sunspec/pull/476"
+        },
+        {
+          "number": 489,
+          "title": "Record reactive and apparent energy counters as running totals",
+          "state": "closed",
+          "updated_at": "2026-11-22T15:03:21Z",
+          "url": "https://github.com/CJNE/ha-sunspec/pull/489"
+        },
         {
           "number": 488,
           "title": "Refuse a port above 65535 in setup and Reconfigure",
-          "state": "open",
-          "updated_at": "2026-11-22T14:19:49Z",
+          "state": "closed",
+          "updated_at": "2026-11-22T15:03:05Z",
           "url": "https://github.com/CJNE/ha-sunspec/pull/488"
         },
         {
           "number": 487,
           "title": "Drop the duplicate and undefined keys from inverter.json",
-          "state": "open",
-          "updated_at": "2026-11-22T14:19:47Z",
+          "state": "closed",
+          "updated_at": "2026-11-22T15:02:51Z",
           "url": "https://github.com/CJNE/ha-sunspec/pull/487"
         },
         {
