@@ -1,17 +1,17 @@
 {
   "username": "Galileo77",
-  "generated_at": "2026-11-24T14:47:21.215139+00:00",
-  "period_start": "2026-11-23T14:47:21.215139+00:00",
-  "period_end": "2026-11-24T14:47:21.215139+00:00",
+  "generated_at": "2026-11-24T15:47:46.705624+00:00",
+  "period_start": "2026-11-23T15:47:46.705624+00:00",
+  "period_end": "2026-11-24T15:47:46.705624+00:00",
   "total_repositories": 45,
   "checked_repositories": 45,
   "failed_repositories": [],
   "complete": true,
   "repositories_with_changes": 28,
   "statistics": {
-    "commits": 85,
-    "releases": 4,
-    "pull_requests": 216
+    "commits": 80,
+    "releases": 5,
+    "pull_requests": 213
   },
   "repositories": [
     {
@@ -117,10 +117,17 @@
       "releases": [],
       "pull_requests": [
         {
+          "number": 25086,
+          "title": "Resolve placeholders against saved environment_vars",
+          "state": "open",
+          "updated_at": "2026-11-24T15:36:24Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25086"
+        },
+        {
           "number": 25085,
           "title": "Boot ownership and device grant fixes",
           "state": "open",
-          "updated_at": "2026-11-24T14:33:32Z",
+          "updated_at": "2026-11-24T15:01:34Z",
           "url": "https://github.com/blakeblackshear/frigate/pull/25085"
         },
         {
@@ -374,18 +381,6 @@
           "message": "feat(pairing): pull a controller's key by its node id",
           "date": "2026-11-23T17:21:26Z",
           "url": "https://github.com/laberning/home_io_control/commit/d3eaf7c7e9ca1e9f1e76420dfceefeae2550788b"
-        },
-        {
-          "sha": "01e1a2593f7c9a3e658e94468e9d238c5c8d3ede",
-          "message": "feat(log): hold a radio driver's own log lines outside frame-log builds",
-          "date": "2026-11-23T15:43:53Z",
-          "url": "https://github.com/laberning/home_io_control/commit/01e1a2593f7c9a3e658e94468e9d238c5c8d3ede"
-        },
-        {
-          "sha": "6ee11fc07e160e91f7a460b99c80b9430c863c1b",
-          "message": "refactor(radio): let each radio describe its band to the hub",
-          "date": "2026-11-23T15:29:48Z",
-          "url": "https://github.com/laberning/home_io_control/commit/6ee11fc07e160e91f7a460b99c80b9430c863c1b"
         }
       ],
       "releases": [],
@@ -555,6 +550,20 @@
       "releases": [],
       "pull_requests": [
         {
+          "number": 14374,
+          "title": "Fix open connections gauge with StatsD and InfluxDB2",
+          "state": "open",
+          "updated_at": "2026-11-24T15:38:39Z",
+          "url": "https://github.com/traefik/traefik/pull/14374"
+        },
+        {
+          "number": 14347,
+          "title": "Cancel the request handling when the entry point writeTimeout expires",
+          "state": "open",
+          "updated_at": "2026-11-24T14:59:53Z",
+          "url": "https://github.com/traefik/traefik/pull/14347"
+        },
+        {
           "number": 12685,
           "title": "Add router-level open connections metric for TCP routers",
           "state": "open",
@@ -672,34 +681,6 @@
           "state": "open",
           "updated_at": "2026-11-23T16:08:27Z",
           "url": "https://github.com/traefik/traefik/pull/14366"
-        },
-        {
-          "number": 14365,
-          "title": "Add fuzz coverage for path and forwarded headers middlewares",
-          "state": "open",
-          "updated_at": "2026-11-23T15:31:12Z",
-          "url": "https://github.com/traefik/traefik/pull/14365"
-        },
-        {
-          "number": 14291,
-          "title": "Fix data race in UDP listener timeout tests",
-          "state": "open",
-          "updated_at": "2026-11-23T15:28:07Z",
-          "url": "https://github.com/traefik/traefik/pull/14291"
-        },
-        {
-          "number": 14346,
-          "title": "Do not append empty grpcWeb trailer frame to trailers-only responses",
-          "state": "closed",
-          "updated_at": "2026-11-23T15:25:54Z",
-          "url": "https://github.com/traefik/traefik/pull/14346"
-        },
-        {
-          "number": 14347,
-          "title": "Cancel the request handling when the entry point writeTimeout expires",
-          "state": "open",
-          "updated_at": "2026-11-23T14:52:52Z",
-          "url": "https://github.com/traefik/traefik/pull/14347"
         }
       ],
       "errors": []
@@ -715,7 +696,29 @@
         }
       ],
       "releases": [],
-      "pull_requests": [],
+      "pull_requests": [
+        {
+          "number": 2033,
+          "title": "Fix/epg stale error message",
+          "state": "open",
+          "updated_at": "2026-11-24T15:40:08Z",
+          "url": "https://github.com/Dispatcharr/Dispatcharr/pull/2033"
+        },
+        {
+          "number": 1754,
+          "title": "Start audio-only channels with a smaller initial buffer",
+          "state": "closed",
+          "updated_at": "2026-11-24T14:47:42Z",
+          "url": "https://github.com/Dispatcharr/Dispatcharr/pull/1754"
+        },
+        {
+          "number": 2030,
+          "title": "Initial connection use pts",
+          "state": "closed",
+          "updated_at": "2026-11-23T22:27:38Z",
+          "url": "https://github.com/Dispatcharr/Dispatcharr/pull/2030"
+        }
+      ],
       "errors": []
     },
     {
@@ -919,8 +922,8 @@
         {
           "number": 235,
           "title": "fix: repairs fix flow for unknown ids and missing data; clear pyright findings",
-          "state": "open",
-          "updated_at": "2026-11-24T14:43:30Z",
+          "state": "closed",
+          "updated_at": "2026-11-24T14:48:09Z",
           "url": "https://github.com/HA-Pulse/home-assistant-global-health-score/pull/235"
         },
         {
@@ -1031,6 +1034,12 @@
     {
       "repository": "hagezi/dns-blocklists",
       "commits": [
+        {
+          "sha": "4efe36574890b5ceacfb0ca8c693fee5c7395fb6",
+          "message": "release",
+          "date": "2026-11-24T15:45:50Z",
+          "url": "https://github.com/hagezi/dns-blocklists/commit/4efe36574890b5ceacfb0ca8c693fee5c7395fb6"
+        },
         {
           "sha": "12bfb04fad3cd8ccb4a6ff503dfdb7f147dd5379",
           "message": "release",
@@ -1155,10 +1164,24 @@
       ],
       "pull_requests": [
         {
+          "number": 5232,
+          "title": "Add sonos S5 power profile",
+          "state": "open",
+          "updated_at": "2026-11-24T15:17:47Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5232"
+        },
+        {
+          "number": 5167,
+          "title": "feat(standby): allow standby_power_on for manually configured sensors",
+          "state": "open",
+          "updated_at": "2026-11-24T15:16:57Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5167"
+        },
+        {
           "number": 5223,
           "title": "Add signify 1746330P7 power profile",
           "state": "open",
-          "updated_at": "2026-11-24T13:34:04Z",
+          "updated_at": "2026-11-24T15:16:42Z",
           "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5223"
         },
         {
@@ -1253,13 +1276,6 @@
           "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5233"
         },
         {
-          "number": 5167,
-          "title": "feat(standby): allow standby_power_on for manually configured sensors",
-          "state": "open",
-          "updated_at": "2026-11-23T22:12:34Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5167"
-        },
-        {
           "number": 5200,
           "title": "Add Shelly Power Strip 4 Gen4 (S4PL-00416EU)",
           "state": "open",
@@ -1321,13 +1337,6 @@
           "state": "closed",
           "updated_at": "2026-11-23T21:54:29Z",
           "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5082"
-        },
-        {
-          "number": 5232,
-          "title": "Add sonos S5 power profile",
-          "state": "open",
-          "updated_at": "2026-11-23T21:19:00Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5232"
         },
         {
           "number": 5230,
@@ -1830,33 +1839,22 @@
           "message": "Include SFPs in inventory page (#21408)",
           "date": "2026-11-23T15:59:59Z",
           "url": "https://github.com/librenms/librenms/commit/f05d4e41ba7f3885f0b467abc7beb9d7f7c33302"
-        },
-        {
-          "sha": "4968b52b55311a8f6772449e4baa2bd21a3a36d0",
-          "message": "Fix device edit/add polling method visibility sometimes (#21407)",
-          "date": "2026-11-23T15:25:46Z",
-          "url": "https://github.com/librenms/librenms/commit/4968b52b55311a8f6772449e4baa2bd21a3a36d0"
-        },
-        {
-          "sha": "1652a7d179f7cc9be400f659ab711fc1894abede",
-          "message": "Table export: include the table post parameters (#21330)",
-          "date": "2026-11-23T15:23:46Z",
-          "url": "https://github.com/librenms/librenms/commit/1652a7d179f7cc9be400f659ab711fc1894abede"
-        },
-        {
-          "sha": "5488e3282e00fb836e35907b1835a88fa0df1cb9",
-          "message": "fix(dell-sonic): detect S5232F and future Dell SONiC models (#21404)",
-          "date": "2026-11-23T14:58:22Z",
-          "url": "https://github.com/librenms/librenms/commit/5488e3282e00fb836e35907b1835a88fa0df1cb9"
         }
       ],
       "releases": [],
       "pull_requests": [
         {
+          "number": 21214,
+          "title": "IPv4 addresses: move IP-MIB discovery into an OS trait, keep addresses on timeout",
+          "state": "open",
+          "updated_at": "2026-11-24T15:21:47Z",
+          "url": "https://github.com/librenms/librenms/pull/21214"
+        },
+        {
           "number": 21424,
           "title": "Implement SNMP battery SKU retrieval in Apc",
           "state": "open",
-          "updated_at": "2026-11-24T14:19:50Z",
+          "updated_at": "2026-11-24T15:09:23Z",
           "url": "https://github.com/librenms/librenms/pull/21424"
         },
         {
@@ -1865,13 +1863,6 @@
           "state": "closed",
           "updated_at": "2026-11-24T14:16:43Z",
           "url": "https://github.com/librenms/librenms/pull/21422"
-        },
-        {
-          "number": 21214,
-          "title": "IPv4 addresses: move IP-MIB discovery into an OS trait, keep addresses on timeout",
-          "state": "open",
-          "updated_at": "2026-11-24T14:14:43Z",
-          "url": "https://github.com/librenms/librenms/pull/21214"
         },
         {
           "number": 21410,
@@ -2068,34 +2059,6 @@
           "state": "closed",
           "updated_at": "2026-11-23T16:01:05Z",
           "url": "https://github.com/librenms/librenms/pull/21408"
-        },
-        {
-          "number": 18235,
-          "title": "kunal new setup code add",
-          "state": "closed",
-          "updated_at": "2026-11-23T15:41:00Z",
-          "url": "https://github.com/librenms/librenms/pull/18235"
-        },
-        {
-          "number": 21407,
-          "title": "Fix device edit/add polling method visibility sometimes",
-          "state": "closed",
-          "updated_at": "2026-11-23T15:25:51Z",
-          "url": "https://github.com/librenms/librenms/pull/21407"
-        },
-        {
-          "number": 21330,
-          "title": "Table export: include the table post parameters",
-          "state": "closed",
-          "updated_at": "2026-11-23T15:23:48Z",
-          "url": "https://github.com/librenms/librenms/pull/21330"
-        },
-        {
-          "number": 21404,
-          "title": "fix(dell-sonic): detect S5232F and future Dell SONiC models",
-          "state": "closed",
-          "updated_at": "2026-11-23T14:58:24Z",
-          "url": "https://github.com/librenms/librenms/pull/21404"
         }
       ],
       "errors": []
@@ -2164,7 +2127,15 @@
           "url": "https://github.com/Devolutions/UniGetUI/commit/656d3d4eb6885002b5531b80cbdf5bdc1796e1fc"
         }
       ],
-      "releases": [],
+      "releases": [
+        {
+          "tag": "v2026.3.5-beta1",
+          "name": "UniGetUI v2026.3.5-beta1",
+          "published_at": "2026-11-24T15:44:56Z",
+          "prerelease": true,
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.3.5-beta1"
+        }
+      ],
       "pull_requests": [
         {
           "number": 5826,
@@ -2269,12 +2240,6 @@
           "message": "Python annotations cleanup",
           "date": "2026-11-23T16:08:19Z",
           "url": "https://github.com/ekutner/home-connect-hass/commit/fbbeea0751097710aa2654a420501ff1c7ce6dfc"
-        },
-        {
-          "sha": "dacf6d34b6b29a0a23a579395263725a6e1ce237",
-          "message": "Prevent drift of time entities between time updates",
-          "date": "2026-11-23T15:25:47Z",
-          "url": "https://github.com/ekutner/home-connect-hass/commit/dacf6d34b6b29a0a23a579395263725a6e1ce237"
         }
       ],
       "releases": [
@@ -2293,13 +2258,6 @@
           "state": "closed",
           "updated_at": "2026-11-23T15:52:04Z",
           "url": "https://github.com/ekutner/home-connect-hass/pull/615"
-        },
-        {
-          "number": 612,
-          "title": "Keep remaining program finish time stable between countdown updates",
-          "state": "closed",
-          "updated_at": "2026-11-23T15:27:38Z",
-          "url": "https://github.com/ekutner/home-connect-hass/pull/612"
         }
       ],
       "errors": []
