@@ -1,6 +1,6 @@
 {
   "username": "Galileo77",
-  "updated_at": "2026-11-23T15:58:38.616679+00:00",
+  "updated_at": "2026-11-24T15:53:24.150567+00:00",
   "count": 45,
   "repositories": [
     {
@@ -15,7 +15,7 @@
       "full_name": "blakeblackshear/frigate",
       "html_url": "https://github.com/blakeblackshear/frigate",
       "description": "NVR with realtime local object detection for IP cameras",
-      "pushed_at": "2026-11-23T15:53:40Z",
+      "pushed_at": "2026-11-24T15:33:26Z",
       "default_branch": "dev",
       "archived": false
     },
@@ -55,7 +55,7 @@
       "full_name": "laberning/home_io_control",
       "html_url": "https://github.com/laberning/home_io_control",
       "description": "ESPHome component for IO-Homecontrol devices",
-      "pushed_at": "2026-11-23T08:28:31Z",
+      "pushed_at": "2026-11-24T13:59:55Z",
       "default_branch": "main",
       "archived": false
     },
@@ -71,7 +71,7 @@
       "full_name": "maziggy/bambuddy",
       "html_url": "https://github.com/maziggy/bambuddy",
       "description": "Your Bambu Lab. No Cloud. Your Rules.  Self-hosted command center for Bambu Lab — from one A1 to an entire print farm. ",
-      "pushed_at": "2026-11-23T13:58:00Z",
+      "pushed_at": "2026-11-24T13:33:22Z",
       "default_branch": "main",
       "archived": false
     },
@@ -87,7 +87,7 @@
       "full_name": "traefik/traefik",
       "html_url": "https://github.com/traefik/traefik",
       "description": "The Cloud Native Application Proxy",
-      "pushed_at": "2026-11-23T14:27:53Z",
+      "pushed_at": "2026-11-24T12:56:35Z",
       "default_branch": "master",
       "archived": false
     },
@@ -95,7 +95,7 @@
       "full_name": "Dispatcharr/Dispatcharr",
       "html_url": "https://github.com/Dispatcharr/Dispatcharr",
       "description": "Your Ultimate IPTV & Stream Management Companion",
-      "pushed_at": "2026-11-23T14:26:31Z",
+      "pushed_at": "2026-11-24T14:27:42Z",
       "default_branch": "main",
       "archived": false
     },
@@ -103,7 +103,7 @@
       "full_name": "getarcaneapp/arcane",
       "html_url": "https://github.com/getarcaneapp/arcane",
       "description": "Modern Docker Management, Designed for Everyone",
-      "pushed_at": "2026-11-23T05:20:49Z",
+      "pushed_at": "2026-11-24T13:00:19Z",
       "default_branch": "main",
       "archived": false
     },
@@ -111,7 +111,7 @@
       "full_name": "HA-Pulse/home-assistant-global-health-score",
       "html_url": "https://github.com/HA-Pulse/home-assistant-global-health-score",
       "description": "The open standard for Home Assistant instance health monitoring.",
-      "pushed_at": "2026-11-20T09:58:18Z",
+      "pushed_at": "2026-11-24T14:48:08Z",
       "default_branch": "main",
       "archived": false
     },
@@ -119,7 +119,7 @@
       "full_name": "bbr111/byd_hvs",
       "html_url": "https://github.com/bbr111/byd_hvs",
       "description": "Home Assistant BYD HVS Integration",
-      "pushed_at": "2026-11-04T21:42:23Z",
+      "pushed_at": "2026-11-23T21:05:17Z",
       "default_branch": "main",
       "archived": false
     },
@@ -143,7 +143,7 @@
       "full_name": "merbanan/rtl_433",
       "html_url": "https://github.com/merbanan/rtl_433",
       "description": "Program to decode radio transmissions from devices on the ISM bands (and other frequencies)",
-      "pushed_at": "2026-11-23T08:42:59Z",
+      "pushed_at": "2026-11-24T11:50:18Z",
       "default_branch": "master",
       "archived": false
     },
@@ -151,7 +151,7 @@
       "full_name": "hagezi/dns-blocklists",
       "html_url": "https://github.com/hagezi/dns-blocklists",
       "description": "DNS-Blocklists: For a better internet - keep the internet clean!",
-      "pushed_at": "2026-11-23T09:08:08Z",
+      "pushed_at": "2026-11-24T15:49:11Z",
       "default_branch": "main",
       "archived": false
     },
@@ -167,7 +167,7 @@
       "full_name": "bramstroker/homeassistant-powercalc",
       "html_url": "https://github.com/bramstroker/homeassistant-powercalc",
       "description": "Home Assistant Custom component to calculate estimated power consumption of lights and other appliances",
-      "pushed_at": "2026-11-23T09:35:55Z",
+      "pushed_at": "2026-11-24T08:29:53Z",
       "default_branch": "master",
       "archived": false
     },
@@ -175,7 +175,7 @@
       "full_name": "andrius/asterisk",
       "html_url": "https://github.com/andrius/asterisk",
       "description": "✨📞 Asterisk PBX in 🐳 Docker — Smallest Asterisk ever! 🚀",
-      "pushed_at": "2026-11-23T02:18:30Z",
+      "pushed_at": "2026-11-24T05:45:25Z",
       "default_branch": "main",
       "archived": false
     },
@@ -207,7 +207,7 @@
       "full_name": "getwud/wud",
       "html_url": "https://github.com/getwud/wud",
       "description": "Keep your containers up-to-date!",
-      "pushed_at": "2026-11-22T20:18:04Z",
+      "pushed_at": "2026-11-23T21:02:23Z",
       "default_branch": "main",
       "archived": false
     },
@@ -231,7 +231,7 @@
       "full_name": "paperless-ngx/paperless-ngx",
       "html_url": "https://github.com/paperless-ngx/paperless-ngx",
       "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
-      "pushed_at": "2026-11-23T15:08:10Z",
+      "pushed_at": "2026-11-24T12:18:53Z",
       "default_branch": "dev",
       "archived": false
     },
@@ -239,7 +239,7 @@
       "full_name": "roundcube/roundcubemail",
       "html_url": "https://github.com/roundcube/roundcubemail",
       "description": "The Roundcube Webmail suite",
-      "pushed_at": "2026-11-23T12:45:43Z",
+      "pushed_at": "2026-11-24T12:04:10Z",
       "default_branch": "master",
       "archived": false
     },
@@ -255,7 +255,7 @@
       "full_name": "librenms/librenms",
       "html_url": "https://github.com/librenms/librenms",
       "description": "Community-based GPL-licensed network monitoring system",
-      "pushed_at": "2026-11-23T15:25:47Z",
+      "pushed_at": "2026-11-24T14:16:38Z",
       "default_branch": "master",
       "archived": false
     },
@@ -279,7 +279,7 @@
       "full_name": "ESPresense/ESPresense",
       "html_url": "https://github.com/ESPresense/ESPresense",
       "description": "An ESP32 based node for gathering indoor positioning and transmitting to mqtt",
-      "pushed_at": "2026-11-20T14:53:14Z",
+      "pushed_at": "2026-11-23T21:23:52Z",
       "default_branch": "main",
       "archived": false
     },
@@ -303,7 +303,7 @@
       "full_name": "Devolutions/UniGetUI",
       "html_url": "https://github.com/Devolutions/UniGetUI",
       "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
-      "pushed_at": "2026-11-23T15:43:47Z",
+      "pushed_at": "2026-11-24T15:44:56Z",
       "default_branch": "main",
       "archived": false
     },
@@ -319,7 +319,7 @@
       "full_name": "dolezsa/thermal_comfort",
       "html_url": "https://github.com/dolezsa/thermal_comfort",
       "description": "Thermal Comfort sensor for HA (absolute humidity, heat index, dew point, thermal perception)",
-      "pushed_at": "2026-11-18T17:40:20Z",
+      "pushed_at": "2026-11-24T13:14:53Z",
       "default_branch": "master",
       "archived": false
     },
@@ -335,7 +335,7 @@
       "full_name": "CJNE/ha-sunspec",
       "html_url": "https://github.com/CJNE/ha-sunspec",
       "description": "Home Assistant customcomponent for SunSpec modbus devices",
-      "pushed_at": "2026-11-23T06:09:24Z",
+      "pushed_at": "2026-11-23T19:10:08Z",
       "default_branch": "main",
       "archived": false
     },
@@ -351,7 +351,7 @@
       "full_name": "ekutner/home-connect-hass",
       "html_url": "https://github.com/ekutner/home-connect-hass",
       "description": "Alternative (and improved) Home Connect integration for Home Assistant",
-      "pushed_at": "2026-11-23T13:12:26Z",
+      "pushed_at": "2026-11-23T16:18:38Z",
       "default_branch": "master",
       "archived": false
     },
