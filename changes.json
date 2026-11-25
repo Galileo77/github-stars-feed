@@ -1,22 +1,40 @@
 {
   "username": "Galileo77",
-  "generated_at": "2026-11-25T14:14:41.180525+00:00",
-  "period_start": "2026-11-24T14:14:41.180525+00:00",
-  "period_end": "2026-11-25T14:14:41.180525+00:00",
+  "generated_at": "2026-11-25T15:31:56.023624+00:00",
+  "period_start": "2026-11-24T15:31:56.023624+00:00",
+  "period_end": "2026-11-25T15:31:56.023624+00:00",
   "total_repositories": 45,
   "checked_repositories": 45,
   "failed_repositories": [],
   "complete": true,
-  "repositories_with_changes": 22,
+  "repositories_with_changes": 23,
   "statistics": {
-    "commits": 46,
+    "commits": 47,
     "releases": 3,
-    "pull_requests": 183
+    "pull_requests": 128
   },
   "repositories": [
     {
       "repository": "blakeblackshear/frigate",
       "commits": [
+        {
+          "sha": "8eaae4b514be4ec985f115945dc88ad8aae9c2e6",
+          "message": "calculate dropped frames notice like skipped detections (#25093)",
+          "date": "2026-11-25T15:16:51Z",
+          "url": "https://github.com/blakeblackshear/frigate/commit/8eaae4b514be4ec985f115945dc88ad8aae9c2e6"
+        },
+        {
+          "sha": "717f623b7409d13a40b3c8184de6bbda7065f020",
+          "message": "pin third-party actions and scope workflow tokens (#25094)",
+          "date": "2026-11-25T15:16:02Z",
+          "url": "https://github.com/blakeblackshear/frigate/commit/717f623b7409d13a40b3c8184de6bbda7065f020"
+        },
+        {
+          "sha": "b213d1e73cbd53e5714f798d4eeb620e2125cabe",
+          "message": "Nginx listen and cache header fixes (#25092)",
+          "date": "2026-11-25T14:40:26Z",
+          "url": "https://github.com/blakeblackshear/frigate/commit/b213d1e73cbd53e5714f798d4eeb620e2125cabe"
+        },
         {
           "sha": "fd35f4a48fa23704db26e68f60029e6a329d6225",
           "message": "Skip deleted users in push subscription cleanup (#25084)",
@@ -40,16 +58,45 @@
           "message": "Resolve placeholders against saved environment_vars (#25086)",
           "date": "2026-11-25T12:05:19Z",
           "url": "https://github.com/blakeblackshear/frigate/commit/304dd6dda85c991d5cb6adfd4b9b9fbde27e7e42"
-        },
-        {
-          "sha": "e71f1d38aa3fbb55401ea74f26e6f886d72649e9",
-          "message": "Remove event retain (#25061)",
-          "date": "2026-11-24T14:22:35Z",
-          "url": "https://github.com/blakeblackshear/frigate/commit/e71f1d38aa3fbb55401ea74f26e6f886d72649e9"
         }
       ],
       "releases": [],
       "pull_requests": [
+        {
+          "number": 25093,
+          "title": "Improve dropped frames notice",
+          "state": "closed",
+          "updated_at": "2026-11-25T15:16:56Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25093"
+        },
+        {
+          "number": 24253,
+          "title": "0.19.0",
+          "state": "open",
+          "updated_at": "2026-11-25T15:16:53Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/24253"
+        },
+        {
+          "number": 25094,
+          "title": "Pin CI actions and scope workflow tokens",
+          "state": "closed",
+          "updated_at": "2026-11-25T15:16:06Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25094"
+        },
+        {
+          "number": 25091,
+          "title": "Bump minimatch from 10.2.6 to 11.0.9 in /web in the web-security group across 1 directory",
+          "state": "closed",
+          "updated_at": "2026-11-25T14:45:41Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25091"
+        },
+        {
+          "number": 25092,
+          "title": "Nginx listen and cache header fixes",
+          "state": "closed",
+          "updated_at": "2026-11-25T14:40:31Z",
+          "url": "https://github.com/blakeblackshear/frigate/pull/25092"
+        },
         {
           "number": 25014,
           "title": "Translations update from Hosted Weblate",
@@ -63,20 +110,6 @@
           "state": "closed",
           "updated_at": "2026-11-25T12:08:21Z",
           "url": "https://github.com/blakeblackshear/frigate/pull/25084"
-        },
-        {
-          "number": 24253,
-          "title": "0.19.0",
-          "state": "open",
-          "updated_at": "2026-11-25T12:08:17Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/24253"
-        },
-        {
-          "number": 25091,
-          "title": "Bump minimatch from 10.2.6 to 11.0.9 in /web in the web-security group across 1 directory",
-          "state": "open",
-          "updated_at": "2026-11-25T12:08:05Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25091"
         },
         {
           "number": 25083,
@@ -126,20 +159,6 @@
           "state": "open",
           "updated_at": "2026-11-24T19:21:25Z",
           "url": "https://github.com/blakeblackshear/frigate/pull/25088"
-        },
-        {
-          "number": 1,
-          "title": "Regions",
-          "state": "closed",
-          "updated_at": "2026-11-24T14:26:05Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/1"
-        },
-        {
-          "number": 25061,
-          "title": "Remove event retain",
-          "state": "closed",
-          "updated_at": "2026-11-24T14:22:57Z",
-          "url": "https://github.com/blakeblackshear/frigate/pull/25061"
         }
       ],
       "errors": []
@@ -173,6 +192,20 @@
       ],
       "pull_requests": [
         {
+          "number": 3630,
+          "title": "Inventory: print spool labels on a network Brother QL label printer (#3612)",
+          "state": "open",
+          "updated_at": "2026-11-25T14:51:26Z",
+          "url": "https://github.com/maziggy/bambuddy/pull/3630"
+        },
+        {
+          "number": 3622,
+          "title": "Queue: a To do list of everything the queue waits on, grouped by printer (#3615)",
+          "state": "open",
+          "updated_at": "2026-11-25T14:51:23Z",
+          "url": "https://github.com/maziggy/bambuddy/pull/3622"
+        },
+        {
           "number": 3589,
           "title": "Queue: a file or job can clear its own plate (#3576)",
           "state": "open",
@@ -192,20 +225,6 @@
           "state": "open",
           "updated_at": "2026-11-25T12:52:51Z",
           "url": "https://github.com/maziggy/bambuddy/pull/3732"
-        },
-        {
-          "number": 3630,
-          "title": "Inventory: print spool labels on a network Brother QL label printer (#3612)",
-          "state": "open",
-          "updated_at": "2026-11-25T12:37:17Z",
-          "url": "https://github.com/maziggy/bambuddy/pull/3630"
-        },
-        {
-          "number": 3622,
-          "title": "Queue: a To do list of everything the queue waits on, grouped by printer (#3615)",
-          "state": "open",
-          "updated_at": "2026-11-25T12:37:09Z",
-          "url": "https://github.com/maziggy/bambuddy/pull/3622"
         },
         {
           "number": 3643,
@@ -289,183 +308,7 @@
         }
       ],
       "releases": [],
-      "pull_requests": [
-        {
-          "number": 14366,
-          "title": "Log health check failures on status change",
-          "state": "open",
-          "updated_at": "2026-11-25T13:36:18Z",
-          "url": "https://github.com/traefik/traefik/pull/14366"
-        },
-        {
-          "number": 14379,
-          "title": "Add connections, bytes and duration metrics for TCP routers",
-          "state": "open",
-          "updated_at": "2026-11-25T13:23:22Z",
-          "url": "https://github.com/traefik/traefik/pull/14379"
-        },
-        {
-          "number": 14365,
-          "title": "Add fuzz coverage for path and forwarded headers middlewares",
-          "state": "open",
-          "updated_at": "2026-11-25T13:19:34Z",
-          "url": "https://github.com/traefik/traefik/pull/14365"
-        },
-        {
-          "number": 14364,
-          "title": "Avoid lowercasing every field by default",
-          "state": "open",
-          "updated_at": "2026-11-25T13:19:33Z",
-          "url": "https://github.com/traefik/traefik/pull/14364"
-        },
-        {
-          "number": 14309,
-          "title": "Report canceled HTTP/3 requests as 499",
-          "state": "open",
-          "updated_at": "2026-11-25T13:19:33Z",
-          "url": "https://github.com/traefik/traefik/pull/14309"
-        },
-        {
-          "number": 14361,
-          "title": "Limit REST provider request body size to 10 MiB",
-          "state": "open",
-          "updated_at": "2026-11-25T13:03:55Z",
-          "url": "https://github.com/traefik/traefik/pull/14361"
-        },
-        {
-          "number": 14312,
-          "title": "Add regression tests for SNI check and circuit breaker",
-          "state": "open",
-          "updated_at": "2026-11-25T13:03:55Z",
-          "url": "https://github.com/traefik/traefik/pull/14312"
-        },
-        {
-          "number": 12995,
-          "title": "feat(k8s/crd): add Middleware status conditions and sourceRange CIDR validation",
-          "state": "open",
-          "updated_at": "2026-11-25T12:45:36Z",
-          "url": "https://github.com/traefik/traefik/pull/12995"
-        },
-        {
-          "number": 14378,
-          "title": "Close the listener when the proxy protocol setup fails",
-          "state": "open",
-          "updated_at": "2026-11-25T11:54:32Z",
-          "url": "https://github.com/traefik/traefik/pull/14378"
-        },
-        {
-          "number": 14377,
-          "title": "Close the plugin state file in CleanArchives",
-          "state": "open",
-          "updated_at": "2026-11-25T11:54:22Z",
-          "url": "https://github.com/traefik/traefik/pull/14377"
-        },
-        {
-          "number": 14323,
-          "title": "Return an error when the Redis provider has no endpoint",
-          "state": "open",
-          "updated_at": "2026-11-25T11:30:13Z",
-          "url": "https://github.com/traefik/traefik/pull/14323"
-        },
-        {
-          "number": 12685,
-          "title": "Add open connections metrics for TCP routers",
-          "state": "closed",
-          "updated_at": "2026-11-25T11:04:28Z",
-          "url": "https://github.com/traefik/traefik/pull/12685"
-        },
-        {
-          "number": 14268,
-          "title": "Add socket option to the Tailscale certificate resolver",
-          "state": "closed",
-          "updated_at": "2026-11-25T10:44:56Z",
-          "url": "https://github.com/traefik/traefik/pull/14268"
-        },
-        {
-          "number": 14376,
-          "title": "Merge branch v3.8 into master",
-          "state": "closed",
-          "updated_at": "2026-11-25T10:14:34Z",
-          "url": "https://github.com/traefik/traefik/pull/14376"
-        },
-        {
-          "number": 14374,
-          "title": "Fix open connections gauge with StatsD and InfluxDB2",
-          "state": "closed",
-          "updated_at": "2026-11-25T09:48:09Z",
-          "url": "https://github.com/traefik/traefik/pull/14374"
-        },
-        {
-          "number": 14371,
-          "title": "Pin the Go toolchain to the latest patch release",
-          "state": "open",
-          "updated_at": "2026-11-25T08:09:58Z",
-          "url": "https://github.com/traefik/traefik/pull/14371"
-        },
-        {
-          "number": 14011,
-          "title": "Warn when sticky sessions are used with nativeLB",
-          "state": "open",
-          "updated_at": "2026-11-25T05:06:41Z",
-          "url": "https://github.com/traefik/traefik/pull/14011"
-        },
-        {
-          "number": 14043,
-          "title": "Add noTimestamp option for logs and access logs",
-          "state": "open",
-          "updated_at": "2026-11-25T04:17:32Z",
-          "url": "https://github.com/traefik/traefik/pull/14043"
-        },
-        {
-          "number": 12537,
-          "title": "Feature/add gateway sticky session support",
-          "state": "open",
-          "updated_at": "2026-11-25T02:06:52Z",
-          "url": "https://github.com/traefik/traefik/pull/12537"
-        },
-        {
-          "number": 14375,
-          "title": "Fix data race on the ping handler terminating status",
-          "state": "closed",
-          "updated_at": "2026-11-25T00:55:54Z",
-          "url": "https://github.com/traefik/traefik/pull/14375"
-        },
-        {
-          "number": 13187,
-          "title": "Expose Allow0RTT and InitialPacketSize as HTTP3 configuration options.",
-          "state": "open",
-          "updated_at": "2026-11-24T19:51:01Z",
-          "url": "https://github.com/traefik/traefik/pull/13187"
-        },
-        {
-          "number": 14346,
-          "title": "Do not append empty grpcWeb trailer frame to trailers-only responses",
-          "state": "closed",
-          "updated_at": "2026-11-24T17:36:44Z",
-          "url": "https://github.com/traefik/traefik/pull/14346"
-        },
-        {
-          "number": 14223,
-          "title": "Fix nil EndpointSlice ready condition",
-          "state": "open",
-          "updated_at": "2026-11-24T17:12:12Z",
-          "url": "https://github.com/traefik/traefik/pull/14223"
-        },
-        {
-          "number": 14308,
-          "title": "Do not block FastProxy requests waiting for the response headers",
-          "state": "open",
-          "updated_at": "2026-11-24T16:08:41Z",
-          "url": "https://github.com/traefik/traefik/pull/14308"
-        },
-        {
-          "number": 14347,
-          "title": "Cancel the request handling when the entry point writeTimeout expires",
-          "state": "open",
-          "updated_at": "2026-11-24T14:59:53Z",
-          "url": "https://github.com/traefik/traefik/pull/14347"
-        }
-      ],
+      "pull_requests": [],
       "errors": []
     },
     {
@@ -473,6 +316,13 @@
       "commits": [],
       "releases": [],
       "pull_requests": [
+        {
+          "number": 2037,
+          "title": "Add safe mode for startup recovery",
+          "state": "open",
+          "updated_at": "2026-11-25T15:12:52Z",
+          "url": "https://github.com/Dispatcharr/Dispatcharr/pull/2037"
+        },
         {
           "number": 1737,
           "title": "DVR: per-user recording ownership, visibility, disk quota, and storage indicators",
@@ -554,10 +404,59 @@
       "releases": [],
       "pull_requests": [
         {
+          "number": 4999,
+          "title": "refactor: export, import and transfer projects through the shared backup capture",
+          "state": "open",
+          "updated_at": "2026-11-25T15:29:22Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4999"
+        },
+        {
+          "number": 4997,
+          "title": "feat!: back up Arcane only in system backups",
+          "state": "open",
+          "updated_at": "2026-11-25T15:29:22Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4997"
+        },
+        {
+          "number": 4996,
+          "title": "feat: schedule project backups per project or globally",
+          "state": "open",
+          "updated_at": "2026-11-25T15:29:22Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4996"
+        },
+        {
+          "number": 5002,
+          "title": "refactor: keep every backup schedule in the shared policy table",
+          "state": "open",
+          "updated_at": "2026-11-25T15:29:21Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/5002"
+        },
+        {
+          "number": 5001,
+          "title": "refactor: back up and restore Arcane through the shared backup engine",
+          "state": "open",
+          "updated_at": "2026-11-25T15:29:21Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/5001"
+        },
+        {
+          "number": 5000,
+          "title": "refactor: back up and restore volumes through the shared backup engine",
+          "state": "open",
+          "updated_at": "2026-11-25T15:29:21Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/5000"
+        },
+        {
+          "number": 4995,
+          "title": "feat: back up and restore projects with their volumes",
+          "state": "open",
+          "updated_at": "2026-11-25T15:29:20Z",
+          "url": "https://github.com/getarcaneapp/arcane/pull/4995"
+        },
+        {
           "number": 5012,
           "title": "feat(frontend): show Swarm task hostnames in the container list",
           "state": "open",
-          "updated_at": "2026-11-25T11:36:10Z",
+          "updated_at": "2026-11-25T15:06:06Z",
           "url": "https://github.com/getarcaneapp/arcane/pull/5012"
         },
         {
@@ -573,55 +472,6 @@
           "state": "closed",
           "updated_at": "2026-11-25T08:12:58Z",
           "url": "https://github.com/getarcaneapp/arcane/pull/4894"
-        },
-        {
-          "number": 4996,
-          "title": "feat: schedule project backups per project or globally",
-          "state": "open",
-          "updated_at": "2026-11-25T05:14:35Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4996"
-        },
-        {
-          "number": 4997,
-          "title": "feat!: back up Arcane only in system backups",
-          "state": "open",
-          "updated_at": "2026-11-25T05:14:32Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4997"
-        },
-        {
-          "number": 4995,
-          "title": "feat: back up and restore projects with their volumes",
-          "state": "open",
-          "updated_at": "2026-11-25T05:14:29Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4995"
-        },
-        {
-          "number": 4999,
-          "title": "refactor: export, import and transfer projects through the shared backup capture",
-          "state": "open",
-          "updated_at": "2026-11-25T05:14:25Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/4999"
-        },
-        {
-          "number": 5002,
-          "title": "refactor: keep every backup schedule in the shared policy table",
-          "state": "open",
-          "updated_at": "2026-11-25T05:11:13Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/5002"
-        },
-        {
-          "number": 5001,
-          "title": "refactor: back up and restore Arcane through the shared backup engine",
-          "state": "open",
-          "updated_at": "2026-11-25T05:10:26Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/5001"
-        },
-        {
-          "number": 5000,
-          "title": "refactor: back up and restore volumes through the shared backup engine",
-          "state": "open",
-          "updated_at": "2026-11-25T05:10:17Z",
-          "url": "https://github.com/getarcaneapp/arcane/pull/5000"
         },
         {
           "number": 4746,
@@ -756,20 +606,6 @@
           "state": "closed",
           "updated_at": "2026-11-24T22:33:08Z",
           "url": "https://github.com/HA-Pulse/home-assistant-global-health-score/pull/240"
-        },
-        {
-          "number": 235,
-          "title": "fix: repairs fix flow for unknown ids and missing data; clear pyright findings",
-          "state": "closed",
-          "updated_at": "2026-11-24T14:48:09Z",
-          "url": "https://github.com/HA-Pulse/home-assistant-global-health-score/pull/235"
-        },
-        {
-          "number": 234,
-          "title": "chore: pyright settings for the integration code",
-          "state": "closed",
-          "updated_at": "2026-11-24T14:38:15Z",
-          "url": "https://github.com/HA-Pulse/home-assistant-global-health-score/pull/234"
         }
       ],
       "errors": []
@@ -993,6 +829,13 @@
       "releases": [],
       "pull_requests": [
         {
+          "number": 5236,
+          "title": "feat(profile): Update Roborock Saros 10R profile to use new `battery_rate` profile",
+          "state": "open",
+          "updated_at": "2026-11-25T15:17:02Z",
+          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5236"
+        },
+        {
           "number": 5199,
           "title": "feat(measure): offer all relays of a multi-channel device",
           "state": "open",
@@ -1028,13 +871,6 @@
           "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5235"
         },
         {
-          "number": 5236,
-          "title": "feat(profile): Update Roborock Saros 10R profile to use new `battery_rate` profile",
-          "state": "open",
-          "updated_at": "2026-11-25T07:25:09Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5236"
-        },
-        {
           "number": 5237,
           "title": "Show the session name while a measurement session is open",
           "state": "open",
@@ -1047,27 +883,6 @@
           "state": "closed",
           "updated_at": "2026-11-24T23:52:30Z",
           "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5226"
-        },
-        {
-          "number": 5232,
-          "title": "Add sonos S5 power profile",
-          "state": "open",
-          "updated_at": "2026-11-24T15:17:47Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5232"
-        },
-        {
-          "number": 5167,
-          "title": "feat(standby): allow standby_power_on for manually configured sensors",
-          "state": "open",
-          "updated_at": "2026-11-24T15:16:57Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5167"
-        },
-        {
-          "number": 5223,
-          "title": "Add signify 1746330P7 power profile",
-          "state": "open",
-          "updated_at": "2026-11-24T15:16:42Z",
-          "url": "https://github.com/bramstroker/homeassistant-powercalc/pull/5223"
         }
       ],
       "errors": []
@@ -1360,220 +1175,10 @@
           "message": "Fix TrueNAS CORE 13 detected as TrueNAS SCALE (#21425)",
           "date": "2026-11-24T18:50:44Z",
           "url": "https://github.com/librenms/librenms/commit/2cd238d31ced96ecaa9590be25aff1e13e08e700"
-        },
-        {
-          "sha": "ef2e045f0553f4decd60778dc6cdf284b38629c1",
-          "message": " Blacklist more tables from query builder filter (#21422)",
-          "date": "2026-11-24T14:16:37Z",
-          "url": "https://github.com/librenms/librenms/commit/ef2e045f0553f4decd60778dc6cdf284b38629c1"
         }
       ],
       "releases": [],
-      "pull_requests": [
-        {
-          "number": 20783,
-          "title": "sensors/vrp: fix transceiver dBm limits for single-lane SFP on Huawei VRP",
-          "state": "open",
-          "updated_at": "2026-11-25T14:12:44Z",
-          "url": "https://github.com/librenms/librenms/pull/20783"
-        },
-        {
-          "number": 21207,
-          "title": "add piktime os",
-          "state": "open",
-          "updated_at": "2026-11-25T11:44:46Z",
-          "url": "https://github.com/librenms/librenms/pull/21207"
-        },
-        {
-          "number": 21353,
-          "title": "Fix Arista PLR4 optical-lane labels on 100G breakouts",
-          "state": "open",
-          "updated_at": "2026-11-25T10:13:11Z",
-          "url": "https://github.com/librenms/librenms/pull/21353"
-        },
-        {
-          "number": 21398,
-          "title": "API v1: alert rules resource",
-          "state": "open",
-          "updated_at": "2026-11-25T09:29:53Z",
-          "url": "https://github.com/librenms/librenms/pull/21398"
-        },
-        {
-          "number": 21419,
-          "title": "Add Huawei AR5700 series sysObjectID to YunShan OS detection",
-          "state": "open",
-          "updated_at": "2026-11-25T09:15:00Z",
-          "url": "https://github.com/librenms/librenms/pull/21419"
-        },
-        {
-          "number": 21434,
-          "title": "Lang/device edit de",
-          "state": "open",
-          "updated_at": "2026-11-25T09:13:47Z",
-          "url": "https://github.com/librenms/librenms/pull/21434"
-        },
-        {
-          "number": 20133,
-          "title": "Update Sophos XG with current MIB file, new sensor data and new logos",
-          "state": "closed",
-          "updated_at": "2026-11-25T08:53:16Z",
-          "url": "https://github.com/librenms/librenms/pull/20133"
-        },
-        {
-          "number": 20449,
-          "title": "Prevent Web UI Debug from making changes",
-          "state": "closed",
-          "updated_at": "2026-11-25T08:10:12Z",
-          "url": "https://github.com/librenms/librenms/pull/20449"
-        },
-        {
-          "number": 21433,
-          "title": "Context improvements",
-          "state": "open",
-          "updated_at": "2026-11-25T08:09:31Z",
-          "url": "https://github.com/librenms/librenms/pull/21433"
-        },
-        {
-          "number": 21432,
-          "title": "Improve labeler behavior",
-          "state": "closed",
-          "updated_at": "2026-11-25T08:08:16Z",
-          "url": "https://github.com/librenms/librenms/pull/21432"
-        },
-        {
-          "number": 21431,
-          "title": "Apply the current theme to all Leaflet basemaps",
-          "state": "closed",
-          "updated_at": "2026-11-25T06:59:48Z",
-          "url": "https://github.com/librenms/librenms/pull/21431"
-        },
-        {
-          "number": 21424,
-          "title": "Implement SNMP battery SKU retrieval in Apc",
-          "state": "open",
-          "updated_at": "2026-11-25T06:44:53Z",
-          "url": "https://github.com/librenms/librenms/pull/21424"
-        },
-        {
-          "number": 21283,
-          "title": "feat: add support for the UniFi Cloud Gateway Ultra",
-          "state": "open",
-          "updated_at": "2026-11-25T06:41:42Z",
-          "url": "https://github.com/librenms/librenms/pull/21283"
-        },
-        {
-          "number": 21251,
-          "title": "Active Directory use LdapRecord",
-          "state": "open",
-          "updated_at": "2026-11-25T06:28:36Z",
-          "url": "https://github.com/librenms/librenms/pull/21251"
-        },
-        {
-          "number": 21031,
-          "title": "Use schedule_type for dispatcher enablement",
-          "state": "open",
-          "updated_at": "2026-11-25T06:09:02Z",
-          "url": "https://github.com/librenms/librenms/pull/21031"
-        },
-        {
-          "number": 18676,
-          "title": "Convert MTU check to a polling module",
-          "state": "open",
-          "updated_at": "2026-11-25T06:01:51Z",
-          "url": "https://github.com/librenms/librenms/pull/18676"
-        },
-        {
-          "number": 21430,
-          "title": "Add validation check and notification for legacy scheduler config options.",
-          "state": "open",
-          "updated_at": "2026-11-25T06:10:39Z",
-          "url": "https://github.com/librenms/librenms/pull/21430"
-        },
-        {
-          "number": 20548,
-          "title": "AlertData more strict data definition",
-          "state": "open",
-          "updated_at": "2026-11-25T03:45:34Z",
-          "url": "https://github.com/librenms/librenms/pull/20548"
-        },
-        {
-          "number": 21420,
-          "title": "API v1: graph data endpoint",
-          "state": "closed",
-          "updated_at": "2026-11-25T03:39:21Z",
-          "url": "https://github.com/librenms/librenms/pull/21420"
-        },
-        {
-          "number": 20838,
-          "title": "Fix alerts not firing when a device is still down after a mute alerts window",
-          "state": "open",
-          "updated_at": "2026-11-24T23:49:49Z",
-          "url": "https://github.com/librenms/librenms/pull/20838"
-        },
-        {
-          "number": 21277,
-          "title": "Interactive Graph Page (JS graph)",
-          "state": "closed",
-          "updated_at": "2026-11-24T22:37:10Z",
-          "url": "https://github.com/librenms/librenms/pull/21277"
-        },
-        {
-          "number": 21377,
-          "title": "List applications vertically and link their docs on the edit apps page",
-          "state": "closed",
-          "updated_at": "2026-11-24T22:33:40Z",
-          "url": "https://github.com/librenms/librenms/pull/21377"
-        },
-        {
-          "number": 21428,
-          "title": "backport arista eos dbm sensor values",
-          "state": "closed",
-          "updated_at": "2026-11-24T22:32:51Z",
-          "url": "https://github.com/librenms/librenms/pull/21428"
-        },
-        {
-          "number": 21395,
-          "title": "Add Redfish polling method and sensors module",
-          "state": "open",
-          "updated_at": "2026-11-24T21:09:06Z",
-          "url": "https://github.com/librenms/librenms/pull/21395"
-        },
-        {
-          "number": 21426,
-          "title": "Twilio SMS - Added API Token Support",
-          "state": "open",
-          "updated_at": "2026-11-24T18:56:40Z",
-          "url": "https://github.com/librenms/librenms/pull/21426"
-        },
-        {
-          "number": 21425,
-          "title": "Fix TrueNAS CORE 13 detected as TrueNAS SCALE",
-          "state": "closed",
-          "updated_at": "2026-11-24T18:50:46Z",
-          "url": "https://github.com/librenms/librenms/pull/21425"
-        },
-        {
-          "number": 21410,
-          "title": "Add Harmonic CableOS detection and software version discovery.",
-          "state": "open",
-          "updated_at": "2026-11-24T17:23:04Z",
-          "url": "https://github.com/librenms/librenms/pull/21410"
-        },
-        {
-          "number": 21214,
-          "title": "IPv4 addresses: move IP-MIB discovery into an OS trait, keep addresses on timeout",
-          "state": "open",
-          "updated_at": "2026-11-24T15:21:47Z",
-          "url": "https://github.com/librenms/librenms/pull/21214"
-        },
-        {
-          "number": 21422,
-          "title": " Blacklist more tables from query builder filter",
-          "state": "closed",
-          "updated_at": "2026-11-24T14:16:43Z",
-          "url": "https://github.com/librenms/librenms/pull/21422"
-        }
-      ],
+      "pull_requests": [],
       "errors": []
     },
     {
@@ -1649,6 +1254,12 @@
       "repository": "Devolutions/UniGetUI",
       "commits": [
         {
+          "sha": "72f275d8bf82eb81ea51b337d8147a4c4e13e5e4",
+          "message": "Resolve Windows PowerShell modules before recording listing errors (#5833)",
+          "date": "2026-11-25T14:45:42Z",
+          "url": "https://github.com/Devolutions/UniGetUI/commit/72f275d8bf82eb81ea51b337d8147a4c4e13e5e4"
+        },
+        {
           "sha": "44b4880a6d39892fba7eb576cf12fa81600d24e0",
           "message": "Translate missing strings in 59 languages (#5836)",
           "date": "2026-11-25T13:47:28Z",
@@ -1689,12 +1300,6 @@
           "message": "Get past a stale root-owned backup in the macOS self-update swap (#5827)",
           "date": "2026-11-24T18:59:49Z",
           "url": "https://github.com/Devolutions/UniGetUI/commit/a0af934e175f02265cdc560cfc778d4b51ebf02a"
-        },
-        {
-          "sha": "63cf38c22d3ada40b274fa80e52c58fb130eb902",
-          "message": "Update Pinget to 0.14.0 (#5826)",
-          "date": "2026-11-24T14:26:17Z",
-          "url": "https://github.com/Devolutions/UniGetUI/commit/63cf38c22d3ada40b274fa80e52c58fb130eb902"
         }
       ],
       "releases": [
@@ -1708,10 +1313,17 @@
       ],
       "pull_requests": [
         {
+          "number": 5844,
+          "title": "Ignore PowerShellGet's unreadable-date error when listing PowerShell 5 modules",
+          "state": "open",
+          "updated_at": "2026-11-25T15:20:24Z",
+          "url": "https://github.com/Devolutions/UniGetUI/pull/5844"
+        },
+        {
           "number": 5833,
           "title": "Fix false Windows PowerShell package refresh errors",
-          "state": "open",
-          "updated_at": "2026-11-25T14:07:33Z",
+          "state": "closed",
+          "updated_at": "2026-11-25T14:45:43Z",
           "url": "https://github.com/Devolutions/UniGetUI/pull/5833"
         },
         {
@@ -1769,13 +1381,28 @@
           "state": "closed",
           "updated_at": "2026-11-24T18:59:52Z",
           "url": "https://github.com/Devolutions/UniGetUI/pull/5827"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "repository": "ekutner/home-connect-hass",
+      "commits": [],
+      "releases": [],
+      "pull_requests": [
+        {
+          "number": 598,
+          "title": "Expose translated Home Connect program labels",
+          "state": "closed",
+          "updated_at": "2026-11-25T14:25:33Z",
+          "url": "https://github.com/ekutner/home-connect-hass/pull/598"
         },
         {
-          "number": 5826,
-          "title": "Update Pinget to 0.14.0",
+          "number": 611,
+          "title": "Complete device registry migration for Home Assistant 2026.8",
           "state": "closed",
-          "updated_at": "2026-11-24T14:26:21Z",
-          "url": "https://github.com/Devolutions/UniGetUI/pull/5826"
+          "updated_at": "2026-11-25T14:25:29Z",
+          "url": "https://github.com/ekutner/home-connect-hass/pull/611"
         }
       ],
       "errors": []
