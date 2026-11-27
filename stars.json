@@ -1,8 +1,16 @@
 {
   "username": "Galileo77",
-  "updated_at": "2026-11-26T15:16:33.894197+00:00",
-  "count": 45,
+  "updated_at": "2026-11-27T15:05:38.128255+00:00",
+  "count": 46,
   "repositories": [
+    {
+      "full_name": "frenck/spook",
+      "html_url": "https://github.com/frenck/spook",
+      "description": "A scary 👻 powerful toolbox 🧰 for Home Assistant 🏡",
+      "pushed_at": "2026-11-27T14:46:05Z",
+      "default_branch": "main",
+      "archived": false
+    },
     {
       "full_name": "veracrypt/VeraCrypt",
       "html_url": "https://github.com/veracrypt/VeraCrypt",
@@ -15,7 +23,7 @@
       "full_name": "blakeblackshear/frigate",
       "html_url": "https://github.com/blakeblackshear/frigate",
       "description": "NVR with realtime local object detection for IP cameras",
-      "pushed_at": "2026-11-26T12:56:23Z",
+      "pushed_at": "2026-11-27T13:09:57Z",
       "default_branch": "dev",
       "archived": false
     },
@@ -31,7 +39,7 @@
       "full_name": "leacho73/panalume",
       "html_url": "https://github.com/leacho73/panalume",
       "description": "A glassy, fast, drag-and-drop Home Assistant dashboard app",
-      "pushed_at": "2026-11-26T13:36:13Z",
+      "pushed_at": "2026-11-27T09:44:03Z",
       "default_branch": "main",
       "archived": false
     },
@@ -55,7 +63,7 @@
       "full_name": "laberning/home_io_control",
       "html_url": "https://github.com/laberning/home_io_control",
       "description": "ESPHome component for IO-Homecontrol devices",
-      "pushed_at": "2026-11-26T15:01:05Z",
+      "pushed_at": "2026-11-27T06:36:33Z",
       "default_branch": "main",
       "archived": false
     },
@@ -71,7 +79,7 @@
       "full_name": "maziggy/bambuddy",
       "html_url": "https://github.com/maziggy/bambuddy",
       "description": "Your Bambu Lab. No Cloud. Your Rules.  Self-hosted command center for Bambu Lab — from one A1 to an entire print farm. ",
-      "pushed_at": "2026-11-26T13:46:27Z",
+      "pushed_at": "2026-11-27T13:53:48Z",
       "default_branch": "main",
       "archived": false
     },
@@ -87,7 +95,7 @@
       "full_name": "traefik/traefik",
       "html_url": "https://github.com/traefik/traefik",
       "description": "The Cloud Native Application Proxy",
-      "pushed_at": "2026-11-26T14:32:07Z",
+      "pushed_at": "2026-11-27T14:50:07Z",
       "default_branch": "master",
       "archived": false
     },
@@ -103,7 +111,7 @@
       "full_name": "getarcaneapp/arcane",
       "html_url": "https://github.com/getarcaneapp/arcane",
       "description": "Modern Docker Management, Designed for Everyone",
-      "pushed_at": "2026-11-26T06:57:35Z",
+      "pushed_at": "2026-11-27T03:42:22Z",
       "default_branch": "main",
       "archived": false
     },
@@ -111,7 +119,7 @@
       "full_name": "HA-Pulse/home-assistant-global-health-score",
       "html_url": "https://github.com/HA-Pulse/home-assistant-global-health-score",
       "description": "The open standard for Home Assistant instance health monitoring.",
-      "pushed_at": "2026-11-26T00:51:14Z",
+      "pushed_at": "2026-11-27T14:12:59Z",
       "default_branch": "main",
       "archived": false
     },
@@ -127,7 +135,7 @@
       "full_name": "agittins/bermuda",
       "html_url": "https://github.com/agittins/bermuda",
       "description": "Bermuda Bluetooth/BLE Triangulation / Trilateration for HomeAssistant",
-      "pushed_at": "2026-11-19T06:34:05Z",
+      "pushed_at": "2026-11-27T14:52:30Z",
       "default_branch": "main",
       "archived": false
     },
@@ -143,7 +151,7 @@
       "full_name": "merbanan/rtl_433",
       "html_url": "https://github.com/merbanan/rtl_433",
       "description": "Program to decode radio transmissions from devices on the ISM bands (and other frequencies)",
-      "pushed_at": "2026-11-25T19:10:39Z",
+      "pushed_at": "2026-11-26T18:28:34Z",
       "default_branch": "master",
       "archived": false
     },
@@ -151,7 +159,7 @@
       "full_name": "hagezi/dns-blocklists",
       "html_url": "https://github.com/hagezi/dns-blocklists",
       "description": "DNS-Blocklists: For a better internet - keep the internet clean!",
-      "pushed_at": "2026-11-26T09:26:47Z",
+      "pushed_at": "2026-11-27T09:13:13Z",
       "default_branch": "main",
       "archived": false
     },
@@ -167,7 +175,7 @@
       "full_name": "bramstroker/homeassistant-powercalc",
       "html_url": "https://github.com/bramstroker/homeassistant-powercalc",
       "description": "Home Assistant Custom component to calculate estimated power consumption of lights and other appliances",
-      "pushed_at": "2026-11-26T09:06:18Z",
+      "pushed_at": "2026-11-27T10:46:21Z",
       "default_branch": "master",
       "archived": false
     },
@@ -175,7 +183,7 @@
       "full_name": "andrius/asterisk",
       "html_url": "https://github.com/andrius/asterisk",
       "description": "✨📞 Asterisk PBX in 🐳 Docker — Smallest Asterisk ever! 🚀",
-      "pushed_at": "2026-11-26T03:58:31Z",
+      "pushed_at": "2026-11-27T03:57:10Z",
       "default_branch": "main",
       "archived": false
     },
@@ -199,7 +207,7 @@
       "full_name": "teslamate-org/teslamate",
       "html_url": "https://github.com/teslamate-org/teslamate",
       "description": "A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld]",
-      "pushed_at": "2026-11-26T15:11:52Z",
+      "pushed_at": "2026-11-27T11:41:40Z",
       "default_branch": "main",
       "archived": false
     },
@@ -231,7 +239,7 @@
       "full_name": "paperless-ngx/paperless-ngx",
       "html_url": "https://github.com/paperless-ngx/paperless-ngx",
       "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
-      "pushed_at": "2026-11-26T12:18:06Z",
+      "pushed_at": "2026-11-27T12:18:46Z",
       "default_branch": "dev",
       "archived": false
     },
@@ -255,7 +263,7 @@
       "full_name": "librenms/librenms",
       "html_url": "https://github.com/librenms/librenms",
       "description": "Community-based GPL-licensed network monitoring system",
-      "pushed_at": "2026-11-26T14:06:58Z",
+      "pushed_at": "2026-11-27T15:01:45Z",
       "default_branch": "master",
       "archived": false
     },
@@ -279,7 +287,7 @@
       "full_name": "ESPresense/ESPresense",
       "html_url": "https://github.com/ESPresense/ESPresense",
       "description": "An ESP32 based node for gathering indoor positioning and transmitting to mqtt",
-      "pushed_at": "2026-11-23T21:23:52Z",
+      "pushed_at": "2026-11-27T09:21:46Z",
       "default_branch": "main",
       "archived": false
     },
@@ -287,7 +295,7 @@
       "full_name": "LMS-Community/slimserver",
       "html_url": "https://github.com/LMS-Community/slimserver",
       "description": "Server for Squeezebox and compatible players. This server is also called Lyrion Music Server.",
-      "pushed_at": "2026-11-25T16:22:49Z",
+      "pushed_at": "2026-11-26T21:36:50Z",
       "default_branch": "public/9.2",
       "archived": false
     },
@@ -303,7 +311,7 @@
       "full_name": "Devolutions/UniGetUI",
       "html_url": "https://github.com/Devolutions/UniGetUI",
       "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
-      "pushed_at": "2026-11-26T15:15:47Z",
+      "pushed_at": "2026-11-27T11:03:34Z",
       "default_branch": "main",
       "archived": false
     },
